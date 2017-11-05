@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-size: 16px;
+	width: 100%;
+	font-family: "akrobat-black", sans-serif;
+	overflow-x: hidden;
+	height: 100%;
+}
+.hidden {
+	display: none;
+}
+
+.top_line {
+	height: 100px;
+	color: #0b132b;
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 16px;
+
+}
+.logo {
+	float: left;
+	padding: 18px 110px;
+	vertical-align: middle;
+}
+.content {
+	margin: 0 auto;
+	background: linear-gradient(to bottom, #f6f6f3, #fff);
+	width: 100%;
+}
+.content h1, .content h2 {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.content h1 {
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 36px;
+	padding-top: 30px;
+	font-family: "akrobat-bold", sans-serif;
+	letter-spacing: 3px;
+}
+
+.content h2 {
+	font-family: "akrobat-black", sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+	padding: 15px 0 20px;
+}
+.new_account {
+	position: relative;
+	width: 380px;
+	margin: 0 auto;
+}
+
+.content .e-mail,
+.content .password {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	width: 60%;
+	border: 2px solid #dbdbdb;
+	height: 35px;
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+::-webkit-input-placeholder {color:#c2c2c2;font-size: 16px;}
+::-moz-placeholder          {color:#c2c2c2;font-size: 16px;}/* Firefox 19+ */
+:-moz-placeholder           {color:#c2c2c2;font-size: 16px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#c2c2c2;font-size: 16px;}
+
+.content label {
+	font-size: 12px;
+	padding-left: 60px;
+	color: #0b132b;
+	cursor: pointer;
+	line-height: 10px;
+	font-family: "akrobat-regular", sans-serif;
+}
+.content label a {
+	color: #0b132b;
+	padding-left: 77px;
+
+}
+.content label a:hover {
+	text-decoration: none;
+
+}
+.content .forgot {
+	color: #0b132b;
+	font-size: 13px;
+	font-family: "akrobat-bold", sans-serif;
+	letter-spacing: 1px;
+	float: right;
+	padding-right: 65px;
+}
+.content .forgot:hover {
+	text-decoration: none;
+}
+.content .create {
+	float: right;
+	cursor: pointer;
+	margin-right: 63px;
+	background-color: #f79d00;
+	color: #0b132b;
+	font-family: "akrobat-bold", sans-serif;
+	height: 35px;
+	letter-spacing: 2px;
+	padding: 0 20px;
+	right: 1px;
+	position: absolute;
+	top: 296px;
+	font-size: 14px;
+	border: none;
+}
+.content .login {
+	right: 0;
+	top: 265px;
+}
+.login_h3 {
+	padding-top: 85px;
+}
+.label_login {
+	padding-top: 40px;
+	position: absolute;
+}
+.content h3 {
+	text-transform: uppercase;
+	font-size: 24px;
+	font-family: "akrobat-bold", sans-serif;
+	text-align: center;
+	color: #0b132b;
+	margin: 10px 0 10px;
+}
+.button_gray {
+	display: inline-block;
+	color: #fff;
+	margin: 0 0 0 65px;
+	padding: 0;
+	vertical-align: middle;
+	width: 252px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 19px;
+	font-family: "akrobat-bold", sans-serif;
+	text-decoration: none;
+	background-color: #0b132b;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.new_account form {
+	margin-bottom: 50px;
+}
+footer {
+	bottom: 0;
+	width: 100%;
+	background-color: #f6f6f3;
+	height: 45px;
+	line-height: 45px;
+	color: #0b132b;
+	font-size: 16px;
+	font-family: "akrobat-bold", sans-serif;
+	letter-spacing: 1px;
+
+}
+.copyright {
+	float: left;
+	padding: 0 30px 0 100px;
+}
+// .term_of_use .doc {
+// 	display: block;
+// 	float: left;
+// }
+
+.wrapper {
+	min-height: calc(100vh - 45px);
+}
+footer a {
+	color: #0b132b;
+	padding-left: 20px;
+}

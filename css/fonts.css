@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'akrobat-black';
+    src: url('../font/akrobat-black/akrobat-black.eot');
+    src: url('../font/akrobat-black/akrobat-black.eot?#iefix') format('embedded-opentype'),
+         url('../font/akrobat-black/akrobat-black.woff') format('woff'),
+         url('../font/akrobat-black/akrobat-black.ttf') format('truetype'),
+         url('../font/akrobat-black/akrobat-black.svg#akrobat-black') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'akrobat-bold';
+    src: url('../font/akrobat-bold/akrobat-bold.eot');
+    src: url('../font/akrobat-bold/akrobat-bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/akrobat-bold/akrobat-bold.woff') format('woff'),
+         url('../font/akrobat-bold/akrobat-bold.ttf') format('truetype'),
+         url('../font/akrobat-bold/akrobat-bold.svg#akrobat-bold') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'akrobat-light';
+    src: url('../font/akrobat-light/akrobat-light.eot');
+    src: url('../font/akrobat-light/akrobat-light.eot?#iefix') format('embedded-opentype'),
+         url('../font/akrobat-light/akrobat-light.woff') format('woff'),
+         url('../font/akrobat-light/akrobat-light.ttf') format('truetype'),
+         url('../font/akrobat-light/akrobat-light.svg#akrobat-light') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'akrobat-light';
+    src: url('../font/akrobat-light/akrobat-light.eot');
+    src: url('../font/akrobat-light/akrobat-light.eot?#iefix') format('embedded-opentype'),
+         url('../font/akrobat-light/akrobat-light.woff') format('woff'),
+         url('../font/akrobat-light/akrobat-light.ttf') format('truetype'),
+         url('../font/akrobat-light/akrobat-light.svg#akrobat-light') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'akrobat-regular';
+    src: url('../font/akrobat-regular/akrobat-regular.eot');
+    src: url('../font/akrobat-regular/akrobat-regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/akrobat-regular/akrobat-regular.woff') format('woff'),
+         url('../font/akrobat-regular/akrobat-regular.ttf') format('truetype'),
+         url('../font/akrobat-regular/akrobat-regular.svg#akrobat-regular') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'akrobat-semibold';
+    src: url('../font/akrobat-semibold/akrobat-semibold.eot');
+    src: url('../font/akrobat-semibold/akrobat-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../font/akrobat-semibold/akrobat-semibold.woff') format('woff'),
+         url('../font/akrobat-semibold/akrobat-semibold.ttf') format('truetype'),
+         url('../font/akrobat-semibold/akrobat-semibold.svg#akrobat-semibold') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
