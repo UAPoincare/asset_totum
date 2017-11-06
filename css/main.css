@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+body input:focus:invalid,
+body textarea:focus:invalid {
+	box-shadow: 0 0 5px red;
+	border-color: red;
+	}
+body input:required:valid,
+body textarea:required:valid {
+	box-shadow: 0 0 5px green;
+	border-color: green;
+}
+
+
 body {
 	font-size: 16px;
 	width: 100%;
@@ -115,7 +127,7 @@ body {
 	padding: 0 20px;
 	right: 1px;
 	position: absolute;
-	top: 296px;
+	top: 350px;
 	font-size: 14px;
 	border: none;
 }

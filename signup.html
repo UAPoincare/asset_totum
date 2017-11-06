@@ -25,7 +25,6 @@
 	<link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-chrome-192x192.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
 
-
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
@@ -46,14 +45,15 @@
 					<h1>Create new account</h1>
 					<h2>Enter your e-mail and password</h2>
 					<form method="post">
-						<input type="text" name="e-mail" value="" placeholder="your e-mail"  class="e-mail" required>
-						<input type="password" name="password" value="" placeholder="your password" class="password" required>
-						<input type="password" name="password" value="" placeholder="repeate your password" class="password" required>
+						<input type="text" name="e-mail" value="" placeholder="Company name"  class="e-mail" required>
+						<input type="email" name="e-mail" value="" placeholder="Your e-mail"  class="e-mail" required>
+						<input type="password" name="password" id="pass" value="" placeholder="Your password" class="password" required>
+						<input type="password" name="password" id="reppass" value="" placeholder="Repeate your password" class="password" required>
 						<label>
 							<input type="checkbox" name="remember_me" id="remember_me" checked>
 							I agree with <br><a href="#">Privacy policy</a>
 						</label>
-						<input type="submit" name="create" value="CREATE" class="create">
+						<input type="submit" name="create" value="CREATE" class="create" id="create">
 						<h3>Or</h3>
 						<a href="login.html" class="button_gray">Log in</a>
 					</form>
@@ -83,6 +83,7 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
