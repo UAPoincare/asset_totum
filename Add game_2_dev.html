@@ -32,35 +32,32 @@
 <body>
 	<div class="wrapper">
 		<header>
-		<div class="top_line">
-			<div class="logo">
-				<img src="img/logo.png" alt="Logo">
-			</div>
-		</div>
-	</header>
-	<section>
-		<div>
-			<div class="content">
-				<div class="new_account">
-					<h1>Log in</h1>
-					<h2>Enter your e-mail and password</h2>
-					<form method="post">
-						<input type="email" name="e-mail" value="" placeholder="Your e-mail"  class="e-mail" required>
-						<input type="password" name="password" value="" placeholder="Your password" class="password" required>
-						<a href="#" class="forgot">Forgot account?</a>
-						<label class="label_login">
-							<input type="checkbox" name="remember_me" id="remember_me" checked>
-							Keep me signed in
-						</label>
-						<input type="submit" name="create" value="LOG IN" class="create login">
-						<h3 class="login_h3">Or</h3>
-						<a href="signup.html" class="button_gray">Sign Up</a>
-					</form>
-
+			<div class="top_line">
+				<div class="logo">
+					<img src="img/logo.png" alt="Logo">
+				</div>
+				<div class="top_mnu">
+					<nav>
+						<button class="menu"></button>
+						<ul>
+							<li><a href="#" title="User statistics" >User statistics</a></li>
+							<li><a href="#" title="My totum assets" >My totum assets</a></li>
+							<li><a href="#" title="Balance" >Balance</a></li>
+							<li><a href="#" title="Add news" class="active">Add news</a></li>
+							<li><a href="#" title="Advertise" >Advertise</a></li>
+						</ul>
+					</nav>
 				</div>
 
-
 			</div>
+		</header>
+	<section>
+		<div class="content game_added">
+			<h1>game added <br>successfully</h1>
+			<p>Tell community about your game</p>
+			<a href="#" class="button_gray">Add news</a>
+			<a href="#" class="button_gray button_yellow">add an advertise</a>
+
 		</div>
 
 	</section>
@@ -72,6 +69,17 @@
 			<a href="#" class="term_of_use">Term of use</a>
 			<a href="#" class="doc">Documentation</a>
 		</div>
+		<div class="bottom_menu">
+			<nav class="bottom_nav">
+				<ul>
+					<li><a href="#" title="User statistics" >User statistics</a></li>
+					<li><a href="#" title="My totum assets" >My totum assets</a></li>
+					<li><a href="#" title="Balance" >Balance</a></li>
+					<li><a href="#" title="Add news" class="active">Add news</a></li>
+					<li><a href="#" title="Advertise" >Advertise</a></li>
+				</ul>
+			</nav>
+		</div>
 	</footer>
 	<div class="hidden"></div>
 
@@ -82,6 +90,7 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->

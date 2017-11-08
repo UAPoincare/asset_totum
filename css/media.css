@@ -2,12 +2,61 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    .gradient-parent {
+        margin: 45px 35px 0 35px;
+    }
+    nav ul li{
+        padding: 0 0 0 20px;
+    }
+    nav ul li:last-child{
+        padding-right: 60px;
+    }
+    .add_news_settings  {
+        width: 650px;
+    }
+    .title {
+        width: 400px;
+    }
+    .add_news_settings .text_news {
+        width: 394px;
+    }
+    .add_news_settings .publish {
+        margin-left: 425px;
+    }
+    .add_news_preview {
+        left: 575px;
+    }
+    .bottom_menu {
+        display: none;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    .logo {
+        padding-left: 35px;
+    }
+    nav ul li:last-child{
+        padding-right: 40px;
+    }
+    .add_news_preview {
+        display: none;
+    }
+    .add_news_settings {
+        width: 750px;
+    }
+    .title {
+        width: 555px;
+    }
+    .add_news_settings .text_news {
+        width: 545px;
+    }
+    .add_news_settings .publish {
+        margin-left: 575px;
+    }
+    .attention {
+        letter-spacing: 0;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -23,6 +72,41 @@
     }
     footer {
         height: 90px;
+    }
+    .gradient-parent {
+        height: 180px;
+        width: 360px;
+    }
+    .gradient-parent img {
+        width: 80px;
+    }
+    .gradient-parent h1 {
+    font-size: 43px;
+    }
+    .add_news h1,
+    .green_line,
+    .add_news_settings h3,
+    .file-upload,
+    .filename,
+    .title,
+    .add_news_settings .text_news,
+    .attention {
+        margin-left: 40px;
+    }
+    .title {
+        width: 425px;
+    }
+    .add_news_settings .text_news {
+        width: 415px;
+    }
+    .add_news_settings .publish {
+        margin-left: 372px;
+    }
+    .attention {
+        padding-right: 20px;
+    }
+    .footer_link {
+        float: none;
     }
 }
 
@@ -43,7 +127,7 @@
     .new_account {
         width: 300px;
     }
-    .content .create {
+    .content .new_account .create {
         padding: 0 15px;
         right: -15px;
         top: 333px;
@@ -55,10 +139,57 @@
     footer {
         font-size: 14px;
     }
-    .content .login {
+    .content .new_account .login {
 
         top: 258px;
-}
+    }
+    .gradient-parent {
+        height: 120px;
+        width: 240px;
+    }
+    .gradient-parent img {
+        width: 55px;
+        padding-top: 20px;
+    }
+    .gradient-parent h1 {
+        font-size: 35px;
+        padding-top: 0;
+    }
+    .add_news h1,
+    .green_line,
+    .add_news_settings h3,
+    .file-upload,
+    .filename,
+    .title,
+    .add_news_settings .text_news,
+    .attention {
+        margin-left: 20px;
+    }
+    .add_news_settings h3 {
+        font-size: 20px;
+    }
+    .select_category {
+        left: 188px;
+        top: 212px;
+    }
+    .news_category {
+        width: 105px;
+    }
+    .add_news_settings .text_news {
+        width: 277px;
+        margin-bottom: 45px;
+    }
+    .title {
+        width: 287px;
+    }
+    .add_news_settings .publish {
+        margin-left: -102px;
+    }
+    .game_added .button_gray {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        text-align: center;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -81,7 +212,16 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+    button.menu {
+    display: none;
+  }
+  nav ul {
+    display: table;
+  }
+  nav ul li {
+    display: table-cell;
+    text-align: center;
+  }
 }
 
 /* Medium Devices, Desktops */

@@ -25,54 +25,46 @@
 	<link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-chrome-192x192.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
 
+
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
-	<div class="wrapper">
-		<header>
-		<div class="top_line">
-			<div class="logo">
-				<img src="img/logo.png" alt="Logo">
-			</div>
+
+	<header>
+	<div class="top_line">
+		<div class="logo">
+			<img src="img/logo.png" alt="Logo">
 		</div>
+	</div>
 	</header>
 	<section>
-		<div>
-			<div class="content">
-				<div class="new_account">
-					<h1>Log in</h1>
-					<h2>Enter your e-mail and password</h2>
-					<form method="post">
-						<input type="email" name="e-mail" value="" placeholder="Your e-mail"  class="e-mail" required>
-						<input type="password" name="password" value="" placeholder="Your password" class="password" required>
-						<a href="#" class="forgot">Forgot account?</a>
-						<label class="label_login">
-							<input type="checkbox" name="remember_me" id="remember_me" checked>
-							Keep me signed in
-						</label>
-						<input type="submit" name="create" value="LOG IN" class="create login">
-						<h3 class="login_h3">Or</h3>
-						<a href="signup.html" class="button_gray">Sign Up</a>
-					</form>
-
+		<h1 class="gradient_h1">You are...</h1>
+		<div class="gradient_wrapper flex-container">
+			<a href="#">
+				<div class="gradient-parent flex-element">
+					<img src="img/gamer.png" alt="gamer">
+					<h1>Gamer</h1>
 				</div>
+			</a>
+			<a href="#">
+				<div class="gradient-parent flex-element">
+					<img class="devimg" src="img/developer.png" alt="developer">
+					<h1>Developer</h1>
+				</div>
+			</a>
 
-
-			</div>
 		</div>
+
+
 
 	</section>
-	</div>
 
-	<footer>
-		<div class="copyright">Totum. Copyright © 2017. All rights reserved</div>
-		<div class="footer_link">
-			<a href="#" class="term_of_use">Term of use</a>
-			<a href="#" class="doc">Documentation</a>
-		</div>
-	</footer>
+
+
 	<div class="hidden"></div>
 
 	<!--[if lt IE 9]>
@@ -81,6 +73,7 @@
 	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 
 	<script src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
