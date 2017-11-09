@@ -479,10 +479,10 @@ h3.choose_category {
 	padding-bottom: 25px;
 }
 .game_added a {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 15px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 15px;
 }
 .button_yellow {
 	background-color: #f79d00;
@@ -581,4 +581,124 @@ h3.choose_category {
 	font-size: 14px;
 	margin: 0 0 20px 48px;
 	cursor: pointer;
+}
+.order_adv {
+	position: relative;
+}
+.order_adv_wrapper {
+	margin: 10px 50px 40px 300px;
+	width: 370px;
+	position: relative;
+}
+.order_adv .order_adv_wrapper h2 {
+	padding-bottom: 10px;
+	text-align: left;
+}
+.order_adv .order_adv_wrapper h2 span {
+	padding-left: 22px;
+}
+.order_adv .green_line {
+	margin: 0;
+	padding: 0;
+}
+.order_adv .order_adv_wrapper p {
+	display: inline-block;
+}
+.order_adv_wrapper_items {
+	padding-left: 102px;
+}
+.order_adv_wrapper_items p {
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 24px;
+	padding: 4px 0 0 10px;
+}
+.resolution_cat {
+	position: absolute;
+	top: 67px;
+	right: 88px;
+}
+.resolution_select {
+	width: 100px;
+	background-image: url(../img/arrow.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: #eeeeee;
+}
+.adver_load_img {
+	margin: 10px 0 0 103px;
+}
+.enter_amount {
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 24px;
+}
+.adv_amount {
+	margin: 10px 0 0 0;
+	width: 160px;
+	height: 32px;
+	border: 2px solid #d2d2d2;
+}
+.adv_pay_wrapper {
+	margin: 0 0 10px 103px;
+	position: relative;
+
+}
+.adv_pay_ok {
+	position: absolute;
+	top: 38px;
+	right: -31px;
+}
+.total_payment {
+	margin: 0 0 10px 103px;
+}
+.order_adv_wrapper .total_payment h2 {
+	padding-bottom: 0;
+}
+.order_adv_wrapper .total_payment h2 span {
+	padding: 0;
+	margin: 0;
+}
+.order_adv_wrapper .total_payment p {
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+.order_adv_wrapper .total_payment .totum_currency_value {
+	font-size: 24px;
+	padding-left: 5px;
+	text-decoration: underline;
+	letter-spacing: 1px;
+}
+.order_adv_wrapper .total_payment .total_payment_pay {
+	width: 100px;
+	margin-top: 15px;
+}
+.adventise_preview {
+	position: absolute;
+	top: 95px;
+	right: 120px;
+}
+.adventise_preview a {
+	color: #0b132b;
+	padding: 0 0 10px 34px;
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 14px;
+}
+.adventise_preview .adventise_preview_wrap {
+	position: relative;
+}
+.adventise_preview .adventise_preview_wrap .rectangle_green {
+	width: 281px;
+	height: 61px;
+	background-color: #64f38c;
+	top: 79px;
+	right: 61px;
+	position: absolute;
+	text-align: center;
+
+}
+.adventise_preview .adventise_preview_wrap .rectangle_green p {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-top: 25px;
 }
