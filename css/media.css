@@ -190,6 +190,17 @@
         margin-bottom: 15px;
         text-align: center;
     }
+    .add_game_wrapper {
+        width: 280px;
+    }
+    .save_logo {
+        right: 45px;
+        top: 355px;
+    }
+    .currency_exch_rate {
+        width: 77%;
+    }
+
 }
 
 /* Custom, iPhone Retina */
