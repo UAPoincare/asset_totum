@@ -29,6 +29,9 @@
     .bottom_menu {
         display: none;
     }
+    .bottom_menu_gamer {
+        display: none;
+    }
     .order_adv_wrapper {
         margin-left: 100px;
     }
@@ -66,6 +69,9 @@
         .order_adv_wrapper {
         margin: 10px auto;
         padding: 0 5px;
+    }
+    .total_payment {
+        margin-bottom: 40px;
     }
 }
 
@@ -135,6 +141,15 @@
     }
     .order_adv_wrapper_items p {
         font-size: 18px;
+    }
+    .term_of_use_wrapper {
+        padding: 0 50px;
+    }
+    .term_of_use_wrapper h1 {
+        font-size: 40px;
+    }
+    .term_of_use_wrapper h4 {
+        font-size: 17px;
     }
 
 }
