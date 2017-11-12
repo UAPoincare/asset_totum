@@ -35,6 +35,9 @@
     .order_adv_wrapper {
         margin-left: 100px;
     }
+    .balance_wrapper .change_balance {
+        margin-left: 130px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -72,6 +75,9 @@
     }
     .total_payment {
         margin-bottom: 40px;
+    }
+    .balance_wrapper .change_balance {
+        margin: 10px 0 10px 0;
     }
 }
 

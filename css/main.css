@@ -743,3 +743,257 @@ h3.choose_category {
 	letter-spacing: 1px;
 	margin: 80px 0 10px 0;
 }
+.balance_wrapper {
+	background: linear-gradient(to bottom, #f6f6f3, #fff);
+	width: 100%;
+}
+.my_ballance_wrapper {
+	margin: 0 110px;
+	padding-top: 30px;
+}
+.balance_wrapper .my_balance {
+	width: 150px;
+}
+.balance_wrapper .my_profile p {
+	display: inline-block;
+	line-height: 29px;
+	vertical-align: top;
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 16px;
+	padding-left: 10px;
+}
+.balance_wrapper h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	padding-top: 15px;
+	color: #0b132b;
+	letter-spacing: 1px;
+}
+.balance_wrapper .green_line {
+	padding: 0;
+	margin: 10px 0 10px 0;
+	width: 105px;
+}
+.balance_wrapper h2 {
+	display: inline-block;
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 36px;
+	line-height: 36px;
+}
+.my_ballance_inner {
+	justify-content: left;
+}
+
+.balance_wrapper .change_balance {
+	margin-left: 310px;
+	position: relative;
+	width: 490px;
+}
+.change_balance_tab_wrapper {
+	position: absolute;
+	top: 45px;
+	right: 16px;
+}
+.balance_wrapper .change_balance_tab_wrapper .tabs {
+
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 14px;
+	color: #0b132b;
+	text-transform: uppercase;
+	cursor: pointer;
+	letter-spacing: 2px;
+	text-align: right;
+	margin-bottom: 15px;
+}
+.balance_wrapper .change_balance_tab_wrapper .tabs span {
+	padding: 15px;
+}
+
+.balance_wrapper .change_balance_tab_wrapper .active{
+	color: #f79d00;
+	text-decoration: underline;
+	background-color: #f6f6f3;
+	border-top: 1px solid #9c9c9c;
+	border-left: 1px solid #9c9c9c;
+	border-right: 1px solid #9c9c9c;
+	border-bottom: 1px solid #f6f6f3;
+}
+.change_balance_tab_wrapper .tab_content {
+	background-color: #f6f6f3;
+	border: 1px solid #9c9c9c;
+	padding: 20px;
+}
+.change_balance_tab_wrapper .tab_content .tab_item a {
+	margin: 0 15px;
+}
+.change_balance_tab_wrapper .tab_content .paymant_1 {
+	margin-bottom: 17px;
+}
+.change_balance_tab_wrapper .tab_content .ethereum {
+	padding-left: 13px;
+}
+.balance_wrapper .my_games {
+	margin: 120px 0 35px 0;
+	padding: 0 110px;
+}
+.balance_wrapper .carousel_wrapper {
+	position: relative;
+}
+.balance_wrapper .my_games .owl-wrapper-outer {
+	overflow: hidden;
+	background: white;
+	width: 99%;
+}
+.balance_wrapper .my_games .carousel-element {
+	text-align: center;
+	width: 100px;
+}
+.balance_wrapper .my_games .carousel-element .min_totum {
+	width: 10px;
+}
+.balance_wrapper .carousel_wrapper .carousel_nav {
+	position: absolute;
+	right: 60px;
+	top: 0;
+	background-image: url(../img/arrow_right.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+.balance_wrapper .carousel_wrapper .carousel_nav p {
+	color: #000;
+}
+.balance_wrapper .carousel_wrapper .carousel_nav a {
+	text-decoration: none;
+	font-size: 60px;
+	color: #fff;
+}
+
+.balance_wrapper .carousel_wrapper p {
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 2px;
+	display: inline-block;
+}
+.balance_wrapper .carousel_wrapper a.my_games_button {
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 14px;
+	background-color: #f79d00;
+	color: #0b132b;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 22px;
+	line-height: 14px;
+	vertical-align: middle;
+	display: block;
+	margin-top: 10px;
+}
+.my_history_wrapper {
+	width: 100%;
+	position: relative;
+}
+.my_history {
+	padding: 20px 110px 10px 110px;
+	background-color: #0b132b;
+}
+.my_history h1 {
+	font-size: 24px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: -16px;
+}
+table.dataTable.row-border tbody th,
+table.dataTable.row-border tbody td,
+table.dataTable.display tbody th,
+table.dataTable.display tbody td {
+	border: none;
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 16px;
+}
+.my_history .dataTables_wrapper .dataTables_length label,
+.my_history .dataTables_wrapper .dataTables_filter label,
+.my_history .dataTables_wrapper .dataTables_info,
+.my_history .dataTables_wrapper .dataTables_paginate .previous,
+.my_history .dataTables_wrapper .dataTables_paginate span {
+	display: none;
+}
+.my_history .dataTables_wrapper .dataTable thead .sorting_asc,
+.my_history .dataTables_wrapper .dataTable thead .sorting,
+.my_history .dataTables_wrapper .dataTable thead .sorting_desc,
+.my_history .dataTables_wrapper .dataTable thead th {
+	text-align: left;
+	padding-left: 0;
+	color: #f79d00;
+	text-transform: uppercase;
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 16px;
+}
+.my_history_table tfoot {
+	display: none;
+}
+.my_history_table .dataTables_wrapper .dataTable tbody {
+	color: #fff;
+	border: none;
+}
+.my_history_table .dataTables_wrapper .dataTable tbody .odd,
+.my_history_table .dataTables_wrapper .dataTable tbody .odd .sorting_1 {
+	background-color: #242b41;
+	padding-left: 0;
+}
+.my_history_table .dataTables_wrapper .dataTable tbody .even,
+.my_history_table .dataTables_wrapper .dataTable tbody .even .sorting_1 {
+	background-color: #0b132b;
+	padding-left: 0;
+}
+.my_history_table .dataTables_wrapper .dataTable tbody .odd td,
+.my_history_table .dataTables_wrapper .dataTable tbody .even td {
+	padding-left: 0;
+}
+.my_history_table .dataTables_wrapper .dataTables_paginate .paginate_button {
+	color: #f79d00 !important;
+	text-decoration: underline !important;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: "akrobat-bold", sans-serif;
+}
+.my_history_table .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+	background: none !important;
+	text-decoration: none !important;
+}
+.my_history .dataTables_wrapper .dataTables_paginate .next {
+	display: block;
+	position: absolute;
+	bottom: -50px;
+	left: 45%;
+}
+.my_history_wrapper .attention {
+	margin-left: 0;
+	padding-left: 0;
+	padding-top: 80px;
+}
+.my_history_table .dataTables_wrapper .dataTable tbody td.first {
+	padding-left: 5px;
+}
+.dev_balance_wrapper .daily_income {
+	margin-left: 170px;
+	position: relative;
+	width: 290px;
+	height: 206px;
+
+
+}
+.dev_balance_wrapper .change_balance {
+	margin-left: 20px;
+}
+.dev_balance_wrapper .change_balance .change_balance_tab_wrapper .active {
+	color: #0b132b;
+	text-decoration: none;
+}
+.dev_balance_wrapper .daily_income .histogram {
+	width: 270px;
+	height: 120px;
+	// margin: 0 auto;
+	background-color: red;
+}
