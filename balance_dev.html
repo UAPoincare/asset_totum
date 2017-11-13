@@ -42,10 +42,11 @@
 					<nav>
 						<button class="menu"></button>
 						<ul>
-							<li><a href="#" title="Balance" class="active">Balance</a></li>
-							<li><a href="#" title="Exchange" >Exchange</a></li>
-							<li><a href="#" title="News" >News</a></li>
-							<li><a href="#" title="Settings">Settings</a></li>
+							<li><a href="#" title="User statistics">User statistics</a></li>
+							<li><a href="#" title="My totum assets" >My totum assets</a></li>
+							<li><a href="#" title="Balance" class="active" >Balance</a></li>
+							<li><a href="#" title="Add news">Add news</a></li>
+							<li><a href="#" title="Advertise">Advertise</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -53,18 +54,23 @@
 			</div>
 		</header>
 	<section>
-		<div class="balance_wrapper">
-			<div class="my_ballance_wrapper">
+		<div class="balance_wrapper dev_balance_wrapper">
+			<div class="my_ballance_wrapper my_dev_balance_wrapper">
 				<div class="my_profile">
-					<img src="img/user_photo.png" alt="Name">
-					<p>Zack</p>
+					<img src="img/dev_photo.png" alt="Name">
+					<p>Rovio</p>
 				</div>
 				<div class="my_ballance_inner flex-container">
 					<div class="my_balance flex-element">
 						<h1>My balance</h1>
 						<div class="green_line"></div>
 						<img src="img/totum_currency_balance.png" alt="totum_currency">
-						<h2>120 000</h2>
+						<h2>124 000</h2>
+					</div>
+					<div class="daily_income flex-element">
+						<h1>DAILY INCOME</h1>
+						<div class="green_line"></div>
+						<div id="histogram"><h3>Место под гистограму</h3></div>
 					</div>
 
 					<div class="change_balance flex-element">
@@ -110,112 +116,108 @@
 				<h1>my games</h1>
 				<div class="green_line"></div>
 				<div class="carousel_wrapper">
-					<div class="carousel_wrapper_in">
-						<div id="carousel">
-							<div class="carousel-element">
-								<img src="img/cloud_raiders.png" alt="cloud raiders">
-								<p>1 000</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>100</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/hero_academy.png" alt="cloud raiders">
-								<p>500</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>50</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/kingdom_rush.png" alt="cloud raiders">
-								<p>800</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>20</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/monkey_quest.png" alt="cloud raiders">
-								<p>1200</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>20</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/kingdom_rush_frontiers.png" alt="cloud raiders">
-								<p>900</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>50</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/super_mario.png" alt="cloud raiders">
-								<p>1245</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>73</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/cloud_raiders.png" alt="cloud raiders">
-								<p>1 000</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>100</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/hero_academy.png" alt="cloud raiders">
-								<p>500</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>50</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/kingdom_rush.png" alt="cloud raiders">
-								<p>800</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>20</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/monkey_quest.png" alt="cloud raiders">
-								<p>1200</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>20</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/kingdom_rush_frontiers.png" alt="cloud raiders">
-								<p>900</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>50</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/super_mario.png" alt="cloud raiders">
-								<p>1245</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>73</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/cloud_raiders.png" alt="cloud raiders">
-								<p>1 000</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>100</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
-							<div class="carousel-element">
-								<img src="img/hero_academy.png" alt="cloud raiders">
-								<p>500</p><br>
-								<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
-								<p>50</p><br>
-								<a class="my_games_button" href="#">Change</a>
-							</div>
+					<div id="carousel">
+						<div class="carousel-element">
+							<img src="img/cloud_raiders.png" alt="cloud raiders">
+							<p>1 000</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>100</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/hero_academy.png" alt="cloud raiders">
+							<p>500</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>50</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/kingdom_rush.png" alt="cloud raiders">
+							<p>800</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>20</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/monkey_quest.png" alt="cloud raiders">
+							<p>1200</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>20</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/kingdom_rush_frontiers.png" alt="cloud raiders">
+							<p>900</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>50</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/super_mario.png" alt="cloud raiders">
+							<p>1245</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>73</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/cloud_raiders.png" alt="cloud raiders">
+							<p>1 000</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>100</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/hero_academy.png" alt="cloud raiders">
+							<p>500</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>50</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/kingdom_rush.png" alt="cloud raiders">
+							<p>800</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>20</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/monkey_quest.png" alt="cloud raiders">
+							<p>1200</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>20</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/kingdom_rush_frontiers.png" alt="cloud raiders">
+							<p>900</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>50</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/super_mario.png" alt="cloud raiders">
+							<p>1245</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>73</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/cloud_raiders.png" alt="cloud raiders">
+							<p>1 000</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>100</p><br>
+							<a class="my_games_button" href="#">Change</a>
+						</div>
+						<div class="carousel-element">
+							<img src="img/hero_academy.png" alt="cloud raiders">
+							<p>500</p><br>
+							<img class="min_totum" src="img/totum_currency.png" alt="totum_currency">
+							<p>50</p><br>
+							<a class="my_games_button" href="#">Change</a>
 						</div>
 					</div>
-
 					<div class="carousel_nav">
-						<p class="carousel_nav_prev"><a href="#" id="js-prev">.</a></p>
-						<p class="carousel_nav_next"><a href="#" id="js-next">.</a></p>
+						<p class="center-text"><a href="#" id="js-next">.</a></p>
 					</div>
 
 				</div>
@@ -508,12 +510,13 @@
 			<a href="#" class="doc">Documentation</a>
 		</div>
 		<div class="bottom_menu">
-			<nav class="bottom_nav bottom_menu_gamer">
+			<nav class="bottom_nav">
 				<ul>
+					<li><a href="#" title="User statistics" >User statistics</a></li>
+					<li><a href="#" title="My totum assets" >My totum assets</a></li>
 					<li><a href="#" title="Balance" class="active" >Balance</a></li>
-					<li><a href="#" title="Exchange" >Exchange</a></li>
-					<li><a href="#" title="News" >News</a></li>
-					<li><a href="#" title="Settings">Settings</a></li>
+					<li><a href="#" title="Add news">Add news</a></li>
+					<li><a href="#" title="Advertise">Advertise</a></li>
 				</ul>
 			</nav>
 		</div>

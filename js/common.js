@@ -55,8 +55,8 @@ $(document).ready(function() {
         "oLanguage": {
             "oPaginate": {
             "sFirst": "First page", // This is the link to the first page
-            "sPrevious": "Previous page", // This is the link to the previous page
-            "sNext": "Load more", // This is the link to the next page
+            "sPrevious": "<", // This is the link to the previous page
+            "sNext": ">", // This is the link to the next page
             "sLast": "Last page" // This is the link to the last page
             }
         }
@@ -75,6 +75,7 @@ $(document).ready(function() {
     var carousel = $("#carousel");
     carousel.owlCarousel({
         items: 6,
+        rewindNav: false,
     });
     $('#js-prev').click(function () {
         carousel.trigger('owl.prev');

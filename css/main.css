@@ -1,3 +1,8 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 * {
   margin: 0;
   padding: 0;
@@ -839,6 +844,9 @@ h3.choose_category {
 .balance_wrapper .carousel_wrapper {
 	position: relative;
 }
+.balance_wrapper .carousel_wrapper .carousel_wrapper_in {
+	margin: 0 20px;
+}
 .balance_wrapper .my_games .owl-wrapper-outer {
 	overflow: hidden;
 	background: white;
@@ -851,16 +859,21 @@ h3.choose_category {
 .balance_wrapper .my_games .carousel-element .min_totum {
 	width: 10px;
 }
-.balance_wrapper .carousel_wrapper .carousel_nav {
+.balance_wrapper .carousel_wrapper .carousel_nav .carousel_nav_next {
 	position: absolute;
-	right: 60px;
+	right: 80px;
 	top: 0;
 	background-image: url(../img/arrow_right.png);
 	background-position: right center;
 	background-repeat: no-repeat;
 }
-.balance_wrapper .carousel_wrapper .carousel_nav p {
-	color: #000;
+.balance_wrapper .carousel_wrapper .carousel_nav .carousel_nav_prev {
+	position: absolute;
+	left: 6px;
+	top: 0;
+	background-image: url(../img/arrow_left.png);
+	background-position: left center;
+	background-repeat: no-repeat;
 }
 .balance_wrapper .carousel_wrapper .carousel_nav a {
 	text-decoration: none;
@@ -913,9 +926,7 @@ table.dataTable.display tbody td {
 }
 .my_history .dataTables_wrapper .dataTables_length label,
 .my_history .dataTables_wrapper .dataTables_filter label,
-.my_history .dataTables_wrapper .dataTables_info,
-.my_history .dataTables_wrapper .dataTables_paginate .previous,
-.my_history .dataTables_wrapper .dataTables_paginate span {
+.my_history .dataTables_wrapper .dataTables_info {
 	display: none;
 }
 .my_history .dataTables_wrapper .dataTable thead .sorting_asc,
@@ -952,21 +963,24 @@ table.dataTable.display tbody td {
 }
 .my_history_table .dataTables_wrapper .dataTables_paginate .paginate_button {
 	color: #f79d00 !important;
-	text-decoration: underline !important;
+	// text-decoration: underline !important;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-size: 14px;
 	font-family: "akrobat-bold", sans-serif;
 }
+.my_history_table .dataTables_wrapper .dataTables_paginate .current {
+	background: none !important;
+}
 .my_history_table .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
 	background: none !important;
-	text-decoration: none !important;
+	border: none;
 }
-.my_history .dataTables_wrapper .dataTables_paginate .next {
+.my_history .dataTables_wrapper .dataTables_paginate {
 	display: block;
 	position: absolute;
 	bottom: -50px;
-	left: 45%;
+	left: 38%;
 }
 .my_history_wrapper .attention {
 	margin-left: 0;
@@ -996,4 +1010,116 @@ table.dataTable.display tbody td {
 	height: 120px;
 	// margin: 0 auto;
 	background-color: red;
+}
+.news_article_gamer_wrapper {
+	background: linear-gradient(to bottom, #f6f6f3, #fff);
+}
+.news_article_gamer_wrap {
+	margin: 0 105px;
+}
+.news_article_gamer {
+	float: left;
+	width: 75%;
+}
+.aside_news_article_gamer {
+	float: right;
+	width: 25%;
+	background-color: #64f38c;
+}
+.news_article_gamer .news_menu {
+	margin-top: 15px;
+}
+
+.news_article_gamer .news_menu ul li {
+	padding: 0 90px 0 0;
+	margin-left: 0;
+	display: inline-block;
+}
+.news_article_gamer .news_menu ul li a {
+	font-family: "akrobat-black", sans-serif;
+	font-size: 12px;
+	color: #0b132b;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+.news_article_gamer .news_menu ul li a:hover,
+.news_article_gamer .news_menu ul li a.active {
+	color: #64f38c;
+	text-decoration: underline;
+}
+.news_article_gamer_wrap .news_full h1 {
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 60px;
+	color: #f79d00;
+	padding-top: 20px;
+}
+.news_article_gamer_wrap .news_full img {
+	width: 100%;
+}
+.news_article_gamer_wrap .news_full .news_full_info {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 30px 0 20px;
+}
+.news_article_gamer_wrap .news_full .news_full_info .date,
+.news_article_gamer_wrap .news_full .news_full_info .category,
+.news_article_gamer_wrap .news_full .news_full_info .developer {
+	display: inline-block;
+}
+.news_article_gamer_wrap .news_full .news_full_info .category {
+	padding-left: 20px;
+}
+.news_article_gamer_wrap .news_full .news_full_info .developer {
+	font-family: "akrobat-bold", sans-serif;
+	padding-left: 90px;
+}
+.news_article_gamer_wrap .news_full p {
+	padding: 15px 0;
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 14px;
+}
+.news_article_gamer_wrap .news_full h2 {
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 18px;
+	color: #f79d00;
+	letter-spacing: 1px;
+	padding: 30px 0 10px;
+}
+.news_article_gamer_wrap .news_full a {
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	color: #f79d00;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.news_article_gamer_wrap .news_full a:hover {
+	text-decoration: underline;
+}
+.news_article_gamer_wrap .news_full p.attention {
+	margin: 0;
+	padding: 20px 0 10px;
+	font-size: 10px;
+}
+.news_article_gamer_wrap .aside_news_article_gamer .search {
+	margin-top: 7px;
+
+}
+.news_article_gamer_wrap .aside_news_article_gamer .search input {
+	float: left;
+}
+.news_article_gamer_wrap .aside_news_article_gamer .search .stxt {
+	border: none;
+	width: 220px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	vertical-align: middle;
+	color: #0b132b;
+	text-indent: 10px;
+}
+.news_article_gamer_wrap .aside_news_article_gamer .search .simg {
+	margin: 5px 0 0 -22px;
 }

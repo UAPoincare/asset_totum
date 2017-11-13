@@ -38,6 +38,12 @@
     .balance_wrapper .change_balance {
         margin-left: 130px;
     }
+    .news_article_gamer .news_menu ul li {
+        padding: 0 60px 0 0;
+    }
+    .news_article_gamer_wrap .news_full h1 {
+        font-size: 40px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -77,7 +83,14 @@
         margin-bottom: 40px;
     }
     .balance_wrapper .change_balance {
-        margin: 10px 0 10px 0;
+        margin: 0 0 40px 0;
+    }
+    .news_article_gamer_wrap {
+        margin: 0 60px;
+    }
+
+    .news_article_gamer .news_menu ul li {
+        padding: 0 40px 0 0;
     }
 }
 
@@ -157,6 +170,16 @@
     .term_of_use_wrapper h4 {
         font-size: 17px;
     }
+    .news_article_gamer_wrapper .aside_news_article_gamer{
+        display: none;
+    }
+    .news_article_gamer {
+        width: 100%;
+    }
+    .news_article_gamer .news_menu ul li {
+        padding: 0 15px 0 0;
+    }
+
 
 }
 
@@ -273,6 +296,9 @@
     }
     .green_line {
         width: 54px;
+    }
+    .news_article_gamer .news_menu ul li {
+        display: block;
     }
 
 }
