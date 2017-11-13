@@ -44,6 +44,12 @@
     .news_article_gamer_wrap .news_full h1 {
         font-size: 40px;
     }
+    .news_article_gamer_wrap .aside_news_article_gamer .search {
+        margin-left: 15px;
+    }
+    .news_article_gamer_wrap .news_all_gamer .news_top {
+        max-height: 200px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -91,6 +97,18 @@
 
     .news_article_gamer .news_menu ul li {
         padding: 0 40px 0 0;
+    }
+    .news_article_gamer_wrap .aside_news_article_gamer .search {
+        margin-left: 5px;
+    }
+    .news_article_gamer_wrap .aside_news_article_gamer .search .stxt {
+        width: 90%;
+    }
+    .news_article_gamer_wrap .news_all_gamer .all_news_wrapper .all_news_item h2 {
+        font-size: 21px;
+    }
+    .news_article_gamer_wrap .news_article_gamer .search_wrapper .search .stxt {
+        width: 180px;
     }
 }
 
@@ -179,7 +197,22 @@
     .news_article_gamer .news_menu ul li {
         padding: 0 15px 0 0;
     }
-
+    .news_article_gamer_wrap .news_full h1 {
+        font-size: 30px;
+    }
+    .news_article_gamer_wrap .news_all_gamer .all_news_wrapper .all_news_item {
+        width: 100%;
+    }
+    .news_article_gamer_wrap .news_all_gamer .news_top {
+        display: none;
+    }
+    .news_article_gamer_wrap .news_article_gamer .search_wrapper {
+        float: left;
+        margin-top: 35px;
+    }
+    .news_article_gamer_wrap .news_all_gamer .search {
+        margin-left: 0;
+    }
 
 }
 
@@ -299,6 +332,18 @@
     }
     .news_article_gamer .news_menu ul li {
         display: block;
+    }
+    .news_article_gamer_wrap .news_full h1 {
+        font-size: 25px;
+    }
+    .news_article_gamer_wrap .news_full .news_full_info .developer {
+        padding-left: 0;
+    }
+    .news_article_gamer_wrap .news_full .news_full_info {
+        display: block;
+    }
+    .news_article_gamer_wrap .news_article_gamer .search_wrapper .search .stxt {
+        width: 150px;
     }
 
 }
