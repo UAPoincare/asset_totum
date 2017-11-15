@@ -1471,3 +1471,6 @@ table.dataTable.display tbody td {
 .dev_balance_wrapper .my_games .game_add .add_new_game:hover {
 	color: #f79d00;
 }
+.dev_balance_wrapper .my_games .my_games_list ul li .game {
+	margin-bottom: 10px;
+}
