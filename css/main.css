@@ -787,7 +787,9 @@ h3.choose_category {
 .my_ballance_inner {
 	justify-content: left;
 }
-
+.dev_balance_wrapper .my_ballance_inner {
+	justify-content: space-between;
+}
 .balance_wrapper .change_balance {
 	margin-left: 310px;
 	position: relative;
@@ -887,7 +889,8 @@ h3.choose_category {
 	letter-spacing: 2px;
 	display: inline-block;
 }
-.balance_wrapper .carousel_wrapper a.my_games_button {
+.balance_wrapper .carousel_wrapper a.my_games_button,
+.dev_balance_wrapper .my_games .my_games_list a.my_games_button {
 	font-family: "akrobat-bold", sans-serif;
 	font-size: 14px;
 	background-color: #f79d00;
@@ -989,25 +992,181 @@ table.dataTable.display tbody td {
 	padding-left: 5px;
 }
 .dev_balance_wrapper .daily_income {
-	margin-left: 170px;
+	margin-left: 0;
 	position: relative;
 	width: 290px;
 	height: 206px;
-
-
+}
+.dev_balance_wrapper .daily_income a {
+	display: block;
+	float: right;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 2px solid #64f38c;
+	color: #9c9c9c;
+	margin-top: -25px;
+	padding: 5px 15px;
+	font-size: 10px;
+	font-family: "akrobat-bold", sans-serif;
 }
 .dev_balance_wrapper .change_balance {
-	margin-left: 20px;
+	margin-left: 0;
 }
-.dev_balance_wrapper .change_balance .change_balance_tab_wrapper .active {
-	color: #0b132b;
-	text-decoration: none;
+.dev_balance_wrapper .daily_income .histogram_wrapper {
+	width: 280px;
+	height: 140px;
+	margin-top: 19px;
+	position: relative;
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 13px;
+	color: #9c9c9c;
+	letter-spacing: -0.5px;
+	margin-top: 39px;
 }
-.dev_balance_wrapper .daily_income .histogram {
-	width: 270px;
+.dev_balance_wrapper .daily_income .histogram_wrapper .points {
+	position: absolute;
+	width: 3px;
+	height: 3px;
+	background-color: #9c9c9c;
+	z-index: 2;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .y_point1 {
+	left: 33px;
+	bottom: 40px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .y_point2 {
+	left: 33px;
+	bottom: 65px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .y_point3 {
+	left: 33px;
+	bottom: 90px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .y_point4 {
+	left: 33px;
+	bottom: 115px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .x_point1 {
+	left: 94px;
+	bottom: 18px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .x_point2 {
+	left: 233px;
+	bottom: 18px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .x_1 {
+	left: 67px;
+	bottom: 2px;
+	position: absolute;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .x_2 {
+	left: 210px;
+	bottom: 2px;
+	position: absolute;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .y_4 {
+	left: 0;
+	top: 15px;
+	position: absolute;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .y_3 {
+	left: 3px;
+	top: 40px;
+	position: absolute;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .y_2 {
+	left: 3px;
+	top: 65px;
+	position: absolute;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .y_1 {
+	left: 7px;
+	top: 90px;
+	position: absolute;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 245px;
 	height: 120px;
-	// margin: 0 auto;
-	background-color: red;
+	border-bottom: 1px solid #9a9a9a;
+	border-left: 1px solid #9a9a9a;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .period {
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 10px;
+	color: #0b132b;
+	text-align: right;
+	text-decoration: underline;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .block_odd {
+	background-color: #c1fad1;
+	position: absolute;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .block_even {
+	background-color: #83f5a3;
+	position: absolute;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .block_1 {
+	height: 35px;
+	width: 20px;
+	bottom: 0;
+	left: 0;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .block_2 {
+	height: 60px;
+	width: 20px;
+	bottom: 0;
+	left: 20px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .block_3 {
+	height: 85px;
+	width: 20px;
+	bottom: 0;
+	left: 40px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .block_4 {
+	height: 90px;
+	width: 20px;
+	bottom: 0;
+	left: 60px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .block_5 {
+	height: 70px;
+	width: 20px;
+	bottom: 0;
+	left: 80px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .block_6 {
+	height: 35px;
+	width: 20px;
+	bottom: 0;
+	left: 100px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .block_7 {
+	height: 110px;
+	width: 20px;
+	bottom: 0;
+	left: 120px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .block_8 {
+	height: 75px;
+	width: 20px;
+	bottom: 0;
+	left: 140px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .block_9 {
+	height: 95px;
+	width: 20px;
+	bottom: 0;
+	left: 160px;
+}
+.dev_balance_wrapper .daily_income .histogram_wrapper .histogram .block_10 {
+	height: 60px;
+	width: 20px;
+	bottom: 0;
+	left: 180px;
 }
 .news_article_gamer_wrapper {
 	background: linear-gradient(to bottom, #f6f6f3, #fff);
@@ -1022,7 +1181,6 @@ table.dataTable.display tbody td {
 .aside_news_article_gamer {
 	float: right;
 	width: 25%;
-	// background-color: #64f38c;
 }
 .news_article_gamer .news_menu {
 	margin-top: 15px;
@@ -1286,4 +1444,30 @@ table.dataTable.display tbody td {
 	font-size: 36px;
 	font-family: "akrobat-regular", sans-serif;
 	vertical-align: -5px;
+}
+.dev_balance_wrapper .my_games .my_games_list ul li {
+	display: inline-block;
+	margin-right: 95px;
+	text-align: center;
+}
+.dev_balance_wrapper .my_games .my_games_list ul li p {
+	display: inline-block;
+	font-size: 18px;
+	font-family: "akrobat-regular", sans-serif;
+}
+.dev_balance_wrapper .my_games .my_games_list .min_totum {
+	width: 10px;
+}
+.dev_balance_wrapper .my_games .game_add img {
+	margin-bottom: 7px;
+}
+.dev_balance_wrapper .my_games .game_add .add_new_game {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: "akrobat-bold", sans-serif;
+	color: #0b132b;
+	letter-spacing: 1px;
+}
+.dev_balance_wrapper .my_games .game_add .add_new_game:hover {
+	color: #f79d00;
 }

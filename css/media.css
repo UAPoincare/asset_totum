@@ -110,6 +110,9 @@
     .news_article_gamer_wrap .news_article_gamer .search_wrapper .search .stxt {
         width: 180px;
     }
+    .dev_balance_wrapper .my_ballance_inner .change_balance {
+        margin-top: 40px;
+    }
 }
 
 /* Small Devices, Tablets */
