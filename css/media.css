@@ -2,352 +2,420 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-    .gradient-parent {
-        margin: 45px 35px 0 35px;
-    }
-    nav ul li{
-        padding: 0 0 0 20px;
-    }
-    nav ul li:last-child{
-        padding-right: 60px;
-    }
-    .add_news_settings  {
-        width: 650px;
-    }
-    .title {
-        width: 400px;
-    }
-    .add_news_settings .text_news {
-        width: 394px;
-    }
-    .add_news_settings .publish {
-        margin-left: 425px;
-    }
-    .add_news_preview {
-        left: 575px;
-    }
-    .bottom_menu {
-        display: none;
-    }
-    .bottom_menu_gamer {
-        display: none;
-    }
-    .order_adv_wrapper {
-        margin-left: 100px;
-    }
-    .balance_wrapper .change_balance {
-        margin-left: 130px;
-    }
-    .news_article_gamer .news_menu ul li {
-        padding: 0 60px 0 0;
-    }
-    .news_article_gamer_wrap .news_full h1 {
-        font-size: 40px;
-    }
-    .news_article_gamer_wrap .aside_news_article_gamer .search {
-        margin-left: 15px;
-    }
-    .news_article_gamer_wrap .news_all_gamer .news_top {
-        max-height: 200px;
-    }
+	.gradient-parent {
+		margin: 45px 35px 0 35px;
+	}
+	nav ul li{
+		padding: 0 0 0 20px;
+	}
+	nav ul li:last-child{
+		padding-right: 60px;
+	}
+	.add_news_settings  {
+		width: 650px;
+	}
+	.title {
+		width: 400px;
+	}
+	.add_news_settings .text_news {
+		width: 394px;
+	}
+	.add_news_settings .publish {
+		margin-left: 425px;
+	}
+	.add_news_preview {
+		left: 575px;
+	}
+	.bottom_menu {
+		display: none;
+	}
+	.bottom_menu_gamer {
+		display: none;
+	}
+	.order_adv_wrapper {
+		margin-left: 100px;
+	}
+	.balance_wrapper .change_balance {
+		margin-left: 130px;
+	}
+	.news_article_gamer .news_menu ul li {
+		padding: 0 60px 0 0;
+	}
+	.news_article_gamer_wrap .news_full h1 {
+		font-size: 40px;
+	}
+	.news_article_gamer_wrap .aside_news_article_gamer .search {
+		margin-left: 15px;
+	}
+	.news_article_gamer_wrap .news_all_gamer .news_top {
+		max-height: 200px;
+	}
+	.setting_gamer .my_credit_card {
+		margin-right: 0;
+	}
+	.exchange_gamer_wrapper .exchange_gamer .add_new_game .exchange_photo {
+		display: none;
+	}
+	.exchange_gamer_wrapper .exchange_gamer .my_games_balance,
+	.exchange_gamer_wrapper .exchange_gamer .add_new_game {
+		width: 100%;
+	}
+	.totum_transfer_wrapper .totum_transfer .send_totum,
+	.totum_transfer_wrapper .totum_transfer .previous_transfer {
+		width: 100%;
+	}
+	.totum_transfer_wrapper .totum_transfer .previous_transfer {
+		margin-top: 30px;
+	}
+	.edit_game_dev .edit_game_detail {
+		width: 100%;
+	}
+	.edit_game_dev .token_info {
+		width: 400px;
+		margin-left: 0;
+	}
+	.edit_game_dev .save_cancel {
+		margin-top: 45px;
+		text-align: left;
+	}
+	.edit_game_dev .delete_game {
+		text-align: left;
+	}
+	.edit_game_dev .edit_game_prop .token_info .code_wrapper {
+		top: 0;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-    .logo {
-        padding-left: 35px;
-    }
-    nav ul li:last-child{
-        padding-right: 40px;
-    }
-    .add_news_preview {
-        display: none;
-    }
-    .add_news_settings {
-        width: 750px;
-    }
-    .title {
-        width: 555px;
-    }
-    .add_news_settings .text_news {
-        width: 545px;
-    }
-    .add_news_settings .publish {
-        margin-left: 575px;
-    }
-    .attention {
-        letter-spacing: 0;
-    }
-    .adventise_preview {
-        display: none;
-    }
-        .order_adv_wrapper {
-        margin: 10px auto;
-        padding: 0 5px;
-    }
-    .total_payment {
-        margin-bottom: 40px;
-    }
-    .balance_wrapper .change_balance {
-        margin: 0 0 40px 0;
-    }
-    .news_article_gamer_wrap {
-        margin: 0 60px;
-    }
+	.logo {
+		padding-left: 35px;
+	}
+	nav ul li:last-child{
+		padding-right: 40px;
+	}
+	.add_news_preview {
+		display: none;
+	}
+	.add_news_settings {
+		width: 750px;
+	}
+	.title {
+		width: 555px;
+	}
+	.add_news_settings .text_news {
+		width: 545px;
+	}
+	.add_news_settings .publish {
+		margin-left: 575px;
+	}
+	.attention {
+		letter-spacing: 0;
+	}
+	.adventise_preview {
+		display: none;
+	}
+		.order_adv_wrapper {
+		margin: 10px auto;
+		padding: 0 5px;
+	}
+	.total_payment {
+		margin-bottom: 40px;
+	}
+	.balance_wrapper .change_balance {
+		margin: 0 0 40px 0;
+	}
+	.news_article_gamer_wrap {
+		margin: 0 60px;
+	}
 
-    .news_article_gamer .news_menu ul li {
-        padding: 0 40px 0 0;
-    }
-    .news_article_gamer_wrap .aside_news_article_gamer .search {
-        margin-left: 5px;
-    }
-    .news_article_gamer_wrap .aside_news_article_gamer .search .stxt {
-        width: 90%;
-    }
-    .news_article_gamer_wrap .news_all_gamer .all_news_wrapper .all_news_item h2 {
-        font-size: 21px;
-    }
-    .news_article_gamer_wrap .news_article_gamer .search_wrapper .search .stxt {
-        width: 180px;
-    }
-    .dev_balance_wrapper .my_ballance_inner .change_balance {
-        margin-top: 40px;
-    }
+	.news_article_gamer .news_menu ul li {
+		padding: 0 40px 0 0;
+	}
+	.news_article_gamer_wrap .aside_news_article_gamer .search {
+		margin-left: 5px;
+	}
+	.news_article_gamer_wrap .aside_news_article_gamer .search .stxt {
+		width: 90%;
+	}
+	.news_article_gamer_wrap .news_all_gamer .all_news_wrapper .all_news_item h2 {
+		font-size: 21px;
+	}
+	.news_article_gamer_wrap .news_article_gamer .search_wrapper .search .stxt {
+		width: 180px;
+	}
+	.dev_balance_wrapper .my_ballance_inner .change_balance {
+		margin-top: 40px;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-    nav {
-    position: absolute;
-    z-index: 10;
-    top: 10px;
-    right: 20px;
-    }
-    nav ul {
-        background-color: #d9d9d9;
-    }
-    .copyright {
-        float: none;
-        text-align: center;
-        padding: 0;
-    }
-    .footer_link {
-        text-align: center;
-        padding: 0;
-    }
-    footer {
-        height: 90px;
-    }
-    .gradient-parent {
-        height: 180px;
-        width: 360px;
-    }
-    .gradient-parent img {
-        width: 80px;
-    }
-    .gradient-parent h1 {
-    font-size: 43px;
-    }
-    .add_news h1,
-    .green_line,
-    .add_news_settings h3,
-    .file-upload,
-    .filename,
-    .title,
-    .add_news_settings .text_news,
-    .attention {
-        margin-left: 40px;
-    }
-    .title {
-        width: 425px;
-    }
-    .add_news_settings .text_news {
-        width: 415px;
-    }
-    .add_news_settings .publish {
-        margin-left: 372px;
-    }
-    .attention {
-        padding-right: 20px;
-    }
-    .footer_link {
-        float: none;
-    }
-    .adver_load_img {
-        margin-left: 105px;
-    }
-    .load_img_adv {
-        margin-left: 105px;
-    }
-    .order_adv_wrapper_items p {
-        font-size: 18px;
-    }
-    .term_of_use_wrapper {
-        padding: 0 50px;
-    }
-    .term_of_use_wrapper h1 {
-        font-size: 40px;
-    }
-    .term_of_use_wrapper h4 {
-        font-size: 17px;
-    }
-    .news_article_gamer_wrapper .aside_news_article_gamer{
-        display: none;
-    }
-    .news_article_gamer {
-        width: 100%;
-    }
-    .news_article_gamer .news_menu ul li {
-        padding: 0 15px 0 0;
-    }
-    .news_article_gamer_wrap .news_full h1 {
-        font-size: 30px;
-    }
-    .news_article_gamer_wrap .news_all_gamer .all_news_wrapper .all_news_item {
-        width: 100%;
-    }
-    .news_article_gamer_wrap .news_all_gamer .news_top {
-        display: none;
-    }
-    .news_article_gamer_wrap .news_article_gamer .search_wrapper {
-        float: left;
-        margin-top: 35px;
-    }
-    .news_article_gamer_wrap .news_all_gamer .search {
-        margin-left: 0;
-    }
+	nav {
+	position: absolute;
+	z-index: 10;
+	top: 10px;
+	right: 20px;
+	}
+	nav ul {
+		background-color: #d9d9d9;
+	}
+	.copyright {
+		float: none;
+		text-align: center;
+		padding: 0;
+	}
+	.footer_link {
+		text-align: center;
+		padding: 0;
+	}
+	footer {
+		height: 90px;
+	}
+	.gradient-parent {
+		height: 180px;
+		width: 360px;
+	}
+	.gradient-parent img {
+		width: 80px;
+	}
+	.gradient-parent h1 {
+	font-size: 43px;
+	}
+	.add_news h1,
+	.green_line,
+	.add_news_settings h3,
+	.file-upload,
+	.filename,
+	.title,
+	.add_news_settings .text_news,
+	.attention {
+		margin-left: 40px;
+	}
+	.title {
+		width: 425px;
+	}
+	.add_news_settings .text_news {
+		width: 415px;
+	}
+	.add_news_settings .publish {
+		margin-left: 372px;
+	}
+	.attention {
+		padding-right: 20px;
+	}
+	.footer_link {
+		float: none;
+	}
+	.adver_load_img {
+		margin-left: 105px;
+	}
+	.load_img_adv {
+		margin-left: 105px;
+	}
+	.order_adv_wrapper_items p {
+		font-size: 18px;
+	}
+	.term_of_use_wrapper {
+		padding: 0 50px;
+	}
+	.term_of_use_wrapper h1 {
+		font-size: 40px;
+	}
+	.term_of_use_wrapper h4 {
+		font-size: 17px;
+	}
+	.news_article_gamer_wrapper .aside_news_article_gamer{
+		display: none;
+	}
+	.news_article_gamer {
+		width: 100%;
+	}
+	.news_article_gamer .news_menu ul li {
+		padding: 0 15px 0 0;
+	}
+	.news_article_gamer_wrap .news_full h1 {
+		font-size: 30px;
+	}
+	.news_article_gamer_wrap .news_all_gamer .all_news_wrapper .all_news_item {
+		width: 100%;
+	}
+	.news_article_gamer_wrap .news_all_gamer .news_top {
+		display: none;
+	}
+	.news_article_gamer_wrap .news_article_gamer .search_wrapper {
+		float: left;
+		margin-top: 35px;
+	}
+	.news_article_gamer_wrap .news_all_gamer .search {
+		margin-left: 0;
+	}
+	.accordion_target p {
+		padding: 0 20px;
+	}
+	.accordion_target ul li {
+		padding-left: 50px;
+	}
+	.accordion_trigger {
+		font-size: 18px;
+	}
+	.documentation_wrapper .documentation {
+		margin: 0 50px;
+	}
+	.accordion_trigger p::before {
+		margin: -1px 14px 0 0;
+	}
+	.documentation_wrapper .documentation h1 {
+		font-size: 50px;
+	}
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    .logo {
-        margin: 0 auto;
-        padding-left: 50px;
-    }
-    .content h1 {
-        font-size: 24px;
+	.logo {
+		margin: 0 auto;
+		padding-left: 50px;
+	}
+	.content h1 {
+		font-size: 24px;
 
-    }
-    .content h2 {
-        font-size: 16px;
-        padding-top: 5px;
-    }
-    .new_account {
-        width: 300px;
-    }
-    .content .new_account .create {
-        padding: 0 15px;
-        right: -15px;
-        top: 333px;
-    }
-    .content .button_gray {
-        width: 205px;
-        margin: 0 0 0 47px;
-    }
-    footer {
-        font-size: 14px;
-    }
-    .content .new_account .login {
+	}
+	.content h2 {
+		font-size: 16px;
+		padding-top: 5px;
+	}
+	.new_account {
+		width: 300px;
+	}
+	.content .new_account .create {
+		padding: 0 15px;
+		right: -15px;
+		top: 333px;
+	}
+	.content .button_gray {
+		width: 205px;
+		margin: 0 0 0 47px;
+	}
+	footer {
+		font-size: 14px;
+	}
+	.content .new_account .login {
 
-        top: 258px;
-    }
-    .gradient-parent {
-        height: 120px;
-        width: 240px;
-    }
-    .gradient-parent img {
-        width: 55px;
-        padding-top: 20px;
-    }
-    .gradient-parent h1 {
-        font-size: 35px;
-        padding-top: 0;
-    }
-    .add_news h1,
-    .green_line,
-    .add_news_settings h3,
-    .file-upload,
-    .filename,
-    .title,
-    .add_news_settings .text_news,
-    .attention {
-        margin-left: 20px;
-    }
-    .add_news_settings h3 {
-        font-size: 20px;
-    }
-    .select_category {
-        left: 188px;
-        top: 212px;
-    }
-    .news_category {
-        width: 105px;
-    }
-    .add_news_settings .text_news {
-        width: 277px;
-        margin-bottom: 45px;
-    }
-    .title {
-        width: 287px;
-    }
-    .add_news_settings .publish {
-        margin-left: -102px;
-    }
-    .game_added .button_gray {
-        margin: 0 auto;
-        margin-bottom: 15px;
-        text-align: center;
-    }
-    .add_game_wrapper {
-        width: 280px;
-    }
-    .save_logo {
-        right: 45px;
-        top: 355px;
-    }
-    .currency_exch_rate {
-        width: 77%;
-    }
-        .resolution_cat {
-        top: 47px;
-    }
-    .adv_pay_wrapper {
-        margin-left: 77px;
-    }
-    .enter_amount {
-    font-size: 22px;
-    }
-    .order_adv .order_adv_wrapper .adver_load_img {
-        margin-left: 79px;
-    }
-    .order_adv .order_adv_wrapper .load_img_adv {
-        margin-left: 79px;
-    }
-    .adv_pay_wrapper .adv_pay_ok {
-        margin-right: 103px;
-    }
-    .order_adv_wrapper_items {
-        padding-left: 80px;
-    }
-    .green_line {
-        width: 54px;
-    }
-    .news_article_gamer .news_menu ul li {
-        display: block;
-    }
-    .news_article_gamer_wrap .news_full h1 {
-        font-size: 25px;
-    }
-    .news_article_gamer_wrap .news_full .news_full_info .developer {
-        padding-left: 0;
-    }
-    .news_article_gamer_wrap .news_full .news_full_info {
-        display: block;
-    }
-    .news_article_gamer_wrap .news_article_gamer .search_wrapper .search .stxt {
-        width: 150px;
-    }
+		top: 258px;
+	}
+	.gradient-parent {
+		height: 120px;
+		width: 240px;
+	}
+	.gradient-parent img {
+		width: 55px;
+		padding-top: 20px;
+	}
+	.gradient-parent h1 {
+		font-size: 35px;
+		padding-top: 0;
+	}
+	.add_news h1,
+	.green_line,
+	.add_news_settings h3,
+	.file-upload,
+	.filename,
+	.title,
+	.add_news_settings .text_news,
+	.attention {
+		margin-left: 20px;
+	}
+	.add_news_settings h3 {
+		font-size: 20px;
+	}
+	.select_category {
+		left: 188px;
+		top: 212px;
+	}
+	.news_category {
+		width: 105px;
+	}
+	.add_news_settings .text_news {
+		width: 277px;
+		margin-bottom: 45px;
+	}
+	.title {
+		width: 287px;
+	}
+	.add_news_settings .publish {
+		margin-left: -102px;
+	}
+	.game_added .button_gray {
+		margin: 0 auto;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	.add_game_wrapper {
+		width: 280px;
+	}
+	.save_logo {
+		right: 45px;
+		top: 355px;
+	}
+	.currency_exch_rate {
+		width: 77%;
+	}
+		.resolution_cat {
+		top: 47px;
+	}
+	.adv_pay_wrapper {
+		margin-left: 77px;
+	}
+	.enter_amount {
+	font-size: 22px;
+	}
+	.order_adv .order_adv_wrapper .adver_load_img {
+		margin-left: 79px;
+	}
+	.order_adv .order_adv_wrapper .load_img_adv {
+		margin-left: 79px;
+	}
+	.adv_pay_wrapper .adv_pay_ok {
+		margin-right: 103px;
+	}
+	.order_adv_wrapper_items {
+		padding-left: 80px;
+	}
+	.green_line {
+		width: 54px;
+	}
+	.news_article_gamer .news_menu ul li {
+		display: block;
+	}
+	.news_article_gamer_wrap .news_full h1 {
+		font-size: 25px;
+	}
+	.news_article_gamer_wrap .news_full .news_full_info .developer {
+		padding-left: 0;
+	}
+	.news_article_gamer_wrap .news_full .news_full_info {
+		display: block;
+	}
+	.news_article_gamer_wrap .news_article_gamer .search_wrapper .search .stxt {
+		width: 150px;
+	}
+	.accordion_trigger {
+		font-size: 15px;
+	}
+	.documentation_wrapper .documentation {
+		margin: 0 20px;
+	}
+	.accordion_trigger p::before {
+		margin: -1px 14px 0 0;
+	}
+	.accordion_target {
+		font-size: 14px;
+	}
+	.documentation_wrapper .documentation h1 {
+		font-size: 40px;
+	}
+
 
 }
 
@@ -371,15 +439,15 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-    button.menu {
-    display: none;
+	button.menu {
+	display: none;
   }
   nav ul {
-    display: table;
+	display: table;
   }
   nav ul li {
-    display: table-cell;
-    text-align: center;
+	display: table-cell;
+	text-align: center;
   }
 }
 
@@ -391,4 +459,17 @@
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
+}
+@media only screen and (min-width : 1401px) {
+	.totum_transfer_wrapper {
+		min-height: 445px;
+	}
+	.totum_transfer_wrapper .attention {
+		margin-top: 230px;
+	}
+}
+@media only screen and (min-width : 1900px) {
+	.exchange_gamer_wrapper .exchange_gamer .my_games_balance .carousel_wrapper .carousel_nav .carousel_nav_next {
+		right: 180px;
+	}
 }

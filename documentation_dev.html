@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<title>Totum</title>
+	<meta content="" name="description" />
+	<meta content="" property="og:image" />
+	<meta content="" property="og:description" />
+	<meta content="" property="og:site_name" />
+	<meta content="website" property="og:type" />
+
+	<meta content="telephone=no" name="format-detection" />
+	<meta http-equiv="x-rim-auto-match" content="none">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="top_line">
+				<div class="logo">
+					<img src="img/logo.png" alt="Logo">
+				</div>
+				<div class="top_mnu">
+					<nav>
+						<button class="menu"></button>
+						<ul>
+							<li><a href="#" title="User statistics" >User statistics</a></li>
+							<li><a href="#" title="My totum assets" >My totum assets</a></li>
+							<li><a href="#" title="Balance" >Balance</a></li>
+							<li><a href="#" title="Add news">Add news</a></li>
+							<li><a href="#" title="Advertise">Advertise</a></li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</header>
+	<section>
+		<div class="documentation_wrapper">
+			<div class="documentation">
+				<h1>Documentation</h1>
+				<div class="green_line"></div>
+				<ul class="accordion">
+					<li class="accordion_item">
+						<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-01" checked hidden>
+						<label class="accordion_trigger odd" for="toggle-01"><p>Initialization and Cleanup</p></label>
+						<div class="accordion_target">
+							<p>
+								Because the Totum API causes the game to connect to any attached VR hardware, it is not initialized automatically. To initialize the API and get access to the vr::IVRSystem interface call the vr::VR_Init function. To close down your connection to the hardware and release your vr::IVRSystem interface, call vr::VR_Shutdown.
+								vr::IVRSystem *vr::VR_Init( vr::HmdError*peError, vr::EVRApplicationType eApplicationType )
+								eApplicationType must be one of:</p>
+							<ul>
+								<li>
+									- VRApplication_Scene - A 3D application that will be drawing an environment.
+								</li>
+								<li>
+									- VRApplication_Overlay - An application that only interacts with overlays or the dashboard.
+								</li>
+								<li>
+									- VRApplication_Background - The application will not start TotumVR. If it is not already running the call with VR_Init will fail with VRInitError_Init_NoServerForBackgroundApp.
+								</li>
+								<li>
+									- VRApplication_Utility - The application will start up even if no hardware is present. Only the IVRSettings and IVRApplications interfaces are guaranteed to work. This application type is appropriate for things like installers.
+								</li>
+							</ul>
+							<p>The call will return a vr::IVRSystem pointer that allows the game to call other TotumVR API methods. If something fails the call will return NULL and peError will be set to an error code that indicates what the problem was. peError - The error code that occurred or vr::VRInitError_None if there was no error. See vr::HmdError for possible error codes.</p>
+							<p>void vr::VR_Shutdown()</p>
+							<p>Shuts down the connection to the VR hardware and cleans up the TotumVR API. The vr::IVRSystem pointer returned by vr::VR_Init will be invalid after this call is made.
+							</p>
+						</div>
+					</li>
+					<li class="accordion_item">
+						<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-02" hidden>
+						<label class="accordion_trigger even" for="toggle-02"><p>Interfaces</p></label>
+						<div class="accordion_target">
+							<p>
+								Because the Totum API causes the game to connect to any attached VR hardware, it is not initialized automatically. To initialize the API and get access to the vr::IVRSystem interface call the vr::VR_Init function. To close down your connection to the hardware and release your vr::IVRSystem interface, call vr::VR_Shutdown.
+								vr::IVRSystem *vr::VR_Init( vr::HmdError*peError, vr::EVRApplicationType eApplicationType )
+								eApplicationType must be one of:</p>
+							<ul>
+								<li>
+									- VRApplication_Scene - A 3D application that will be drawing an environment.
+								</li>
+								<li>
+									- VRApplication_Overlay - An application that only interacts with overlays or the dashboard.
+								</li>
+								<li>
+									- VRApplication_Background - The application will not start TotumVR. If it is not already running the call with VR_Init will fail with VRInitError_Init_NoServerForBackgroundApp.
+								</li>
+								<li>
+									- VRApplication_Utility - The application will start up even if no hardware is present. Only the IVRSettings and IVRApplications interfaces are guaranteed to work. This application type is appropriate for things like installers.
+								</li>
+							</ul>
+							<p>The call will return a vr::IVRSystem pointer that allows the game to call other TotumVR API methods. If something fails the call will return NULL and peError will be set to an error code that indicates what the problem was. peError - The error code that occurred or vr::VRInitError_None if there was no error. See vr::HmdError for possible error codes.</p>
+							<p>void vr::VR_Shutdown()</p>
+							<p>Shuts down the connection to the VR hardware and cleans up the TotumVR API. The vr::IVRSystem pointer returned by vr::VR_Init will be invalid after this call is made.
+							</p>
+						</div>
+					</li>
+					<li class="accordion_item">
+						<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-03" hidden>
+						<label class="accordion_trigger odd" for="toggle-03"><p>Other Functions</p></label>
+						<div class="accordion_target">
+							<p>
+								Because the Totum API causes the game to connect to any attached VR hardware, it is not initialized automatically. To initialize the API and get access to the vr::IVRSystem interface call the vr::VR_Init function. To close down your connection to the hardware and release your vr::IVRSystem interface, call vr::VR_Shutdown.
+								vr::IVRSystem *vr::VR_Init( vr::HmdError*peError, vr::EVRApplicationType eApplicationType )
+								eApplicationType must be one of:</p>
+							<ul>
+								<li>
+									- VRApplication_Scene - A 3D application that will be drawing an environment.
+								</li>
+								<li>
+									- VRApplication_Overlay - An application that only interacts with overlays or the dashboard.
+								</li>
+								<li>
+									- VRApplication_Background - The application will not start TotumVR. If it is not already running the call with VR_Init will fail with VRInitError_Init_NoServerForBackgroundApp.
+								</li>
+								<li>
+									- VRApplication_Utility - The application will start up even if no hardware is present. Only the IVRSettings and IVRApplications interfaces are guaranteed to work. This application type is appropriate for things like installers.
+								</li>
+							</ul>
+							<p>The call will return a vr::IVRSystem pointer that allows the game to call other TotumVR API methods. If something fails the call will return NULL and peError will be set to an error code that indicates what the problem was. peError - The error code that occurred or vr::VRInitError_None if there was no error. See vr::HmdError for possible error codes.</p>
+							<p>void vr::VR_Shutdown()</p>
+							<p>Shuts down the connection to the VR hardware and cleans up the TotumVR API. The vr::IVRSystem pointer returned by vr::VR_Init will be invalid after this call is made.
+							</p>
+						</div>
+					</li>
+					<li class="accordion_item">
+						<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-04" hidden>
+						<label class="accordion_trigger even" for="toggle-04"><p>Usage</p></label>
+						<div class="accordion_target">
+							<p>
+								Because the Totum API causes the game to connect to any attached VR hardware, it is not initialized automatically. To initialize the API and get access to the vr::IVRSystem interface call the vr::VR_Init function. To close down your connection to the hardware and release your vr::IVRSystem interface, call vr::VR_Shutdown.
+								vr::IVRSystem *vr::VR_Init( vr::HmdError*peError, vr::EVRApplicationType eApplicationType )
+								eApplicationType must be one of:</p>
+							<ul>
+								<li>
+									- VRApplication_Scene - A 3D application that will be drawing an environment.
+								</li>
+								<li>
+									- VRApplication_Overlay - An application that only interacts with overlays or the dashboard.
+								</li>
+								<li>
+									- VRApplication_Background - The application will not start TotumVR. If it is not already running the call with VR_Init will fail with VRInitError_Init_NoServerForBackgroundApp.
+								</li>
+								<li>
+									- VRApplication_Utility - The application will start up even if no hardware is present. Only the IVRSettings and IVRApplications interfaces are guaranteed to work. This application type is appropriate for things like installers.
+								</li>
+							</ul>
+							<p>The call will return a vr::IVRSystem pointer that allows the game to call other TotumVR API methods. If something fails the call will return NULL and peError will be set to an error code that indicates what the problem was. peError - The error code that occurred or vr::VRInitError_None if there was no error. See vr::HmdError for possible error codes.</p>
+							<p>void vr::VR_Shutdown()</p>
+							<p>Shuts down the connection to the VR hardware and cleans up the TotumVR API. The vr::IVRSystem pointer returned by vr::VR_Init will be invalid after this call is made.
+							</p>
+						</div>
+					</li>
+					<li class="accordion_item">
+						<input type="radio" class="accordion_toggle" name="accordion-01" id="toggle-05" hidden>
+						<label class="accordion_trigger odd" for="toggle-05"><p>Examples</p></label>
+						<div class="accordion_target">
+							<p>
+								Because the Totum API causes the game to connect to any attached VR hardware, it is not initialized automatically. To initialize the API and get access to the vr::IVRSystem interface call the vr::VR_Init function. To close down your connection to the hardware and release your vr::IVRSystem interface, call vr::VR_Shutdown.
+								vr::IVRSystem *vr::VR_Init( vr::HmdError*peError, vr::EVRApplicationType eApplicationType )
+								eApplicationType must be one of:</p>
+							<ul>
+								<li>
+									- VRApplication_Scene - A 3D application that will be drawing an environment.
+								</li>
+								<li>
+									- VRApplication_Overlay - An application that only interacts with overlays or the dashboard.
+								</li>
+								<li>
+									- VRApplication_Background - The application will not start TotumVR. If it is not already running the call with VR_Init will fail with VRInitError_Init_NoServerForBackgroundApp.
+								</li>
+								<li>
+									- VRApplication_Utility - The application will start up even if no hardware is present. Only the IVRSettings and IVRApplications interfaces are guaranteed to work. This application type is appropriate for things like installers.
+								</li>
+							</ul>
+							<p>The call will return a vr::IVRSystem pointer that allows the game to call other TotumVR API methods. If something fails the call will return NULL and peError will be set to an error code that indicates what the problem was. peError - The error code that occurred or vr::VRInitError_None if there was no error. See vr::HmdError for possible error codes.</p>
+							<p>void vr::VR_Shutdown()</p>
+							<p>Shuts down the connection to the VR hardware and cleans up the TotumVR API. The vr::IVRSystem pointer returned by vr::VR_Init will be invalid after this call is made.
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<p class="attention">*All information and materials on the Website are presented solely for the purpose of providing general information</p>
+	</section>
+	</div>
+
+	<footer>
+		<div class="copyright">Totum. Copyright © 2017. All rights reserved</div>
+		<div class="footer_link">
+			<a href="#" class="term_of_use">Term of use</a>
+			<a href="#" class="doc active">Documentation</a>
+		</div>
+		<div class="bottom_menu">
+			<nav class="bottom_nav">
+				<ul>
+					<li><a href="#" title="User statistics" >User statistics</a></li>
+					<li><a href="#" title="My totum assets" >My totum assets</a></li>
+					<li><a href="#" title="Balance" >Balance</a></li>
+					<li><a href="#" title="Add news">Add news</a></li>
+					<li><a href="#" title="Advertise">Advertise</a></li>
+				</ul>
+			</nav>
+		</div>
+	</footer>
+	<div class="hidden"></div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<script src="libs/jquery/jquery-1.12.4.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

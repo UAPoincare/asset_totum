@@ -1,7 +1,7 @@
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 * {
   margin: 0;
@@ -758,6 +758,22 @@ h3.choose_category {
 .balance_wrapper .my_balance {
 	width: 150px;
 }
+.dev_balance_wrapper .my_dev_balance_wrapper .my_profile{
+	position: relative;
+}
+.dev_balance_wrapper .my_dev_balance_wrapper .my_profile .exit_game {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 100px;
+	color: #f00;
+	border: 3px solid #f00;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding: 10px 40px;
+}
 .balance_wrapper .my_profile p {
 	display: inline-block;
 	line-height: 29px;
@@ -848,9 +864,9 @@ h3.choose_category {
 .balance_wrapper .carousel_wrapper .carousel_wrapper_in {
 	margin: 0 20px;
 }
-.balance_wrapper .my_games .owl-wrapper-outer {
+.balance_wrapper .my_games .owl-wrapper-outer,
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance .owl-wrapper-outer {
 	overflow: hidden;
-	background: white;
 	width: 99%;
 }
 .balance_wrapper .my_games .carousel-element {
@@ -1473,4 +1489,618 @@ table.dataTable.display tbody td {
 }
 .dev_balance_wrapper .my_games .my_games_list ul li .game {
 	margin-bottom: 10px;
+}
+.setting_gamer_wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background: linear-gradient(to bottom, #f6f6f3, #fff);
+	position: relative;
+}
+.setting_gamer {
+	margin: 0 110px;
+	justify-content: space-between;
+	padding-top: 25px;
+}
+.setting_gamer h1 {
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+.setting_gamer .green_line {
+	margin: 5px 0 12px 0;
+	padding: 0;
+	width: 112px;
+}
+.setting_gamer .my_profile,
+.setting_gamer .my_credit_card {
+	position: relative;
+}
+.setting_gamer .my_profile {
+	width: 400px;
+	height: 245px;
+	margin-bottom: 40px;
+}
+.setting_gamer .my_profile .user_photo {
+	display: inline-block;
+}
+.setting_gamer .my_profile .profile_description {
+	display: inline-block;
+	position: absolute;
+	top: 48px;
+	left: 179px;
+	font-size: 24px;
+	font-family: "akrobat-regular", sans-serif;
+}
+.setting_gamer .my_profile .profile_description p {
+	display: inline-block;
+}
+.setting_gamer .my_profile .profile_description .nickname {
+	font-family: "akrobat-bold", sans-serif;
+	margin-bottom: 5px;
+}
+.setting_gamer .my_profile .profile_description a {
+	float: right;
+	display: block;
+	margin-left: 40px;
+}
+.setting_gamer .my_profile .add,
+.setting_gamer .my_credit_card .add {
+	font-size: 14px;
+	font-family: "akrobat-bold", sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #0b132b;
+}
+.setting_gamer .my_profile .add:hover,
+.setting_gamer .my_credit_card .add:hover {
+	text-decoration: none;
+}
+.setting_gamer .my_profile .add_descr {
+	position: absolute;
+	top: 180px;
+	left: 180px;
+}
+.setting_gamer .my_profile .add:before,
+.setting_gamer .my_credit_card .add:before {
+	content: "";
+	display: block;
+	background: url(../img/add_min.png);
+	width: 18px;
+	height: 18px;
+	margin: 1px 10px 0 0;
+	float: left;
+}
+.setting_gamer .my_profile .reload_pic {
+	margin-top: 5px;
+}
+.setting_gamer .my_profile .reload:before {
+	background: url(../img/refresh.png);
+}
+.setting_gamer .my_credit_card {
+	width: 345px;
+	height: 245px;
+	margin-right: 200px;
+}
+.setting_gamer .my_credit_card .number_card {
+	display: inline-block;
+	vertical-align: top;
+	padding: 6px 0 27px 7px;
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 24px;
+}
+.setting_gamer .my_credit_card .edit_card {
+	float: right;
+	display: block;
+	margin-right: 50px;
+}
+.setting_gamer .my_credit_card .edit_card img {
+	margin-top: 14px;
+}
+.setting_gamer_wrapper .user_settings_save {
+	text-align: center;
+	padding-right: 110px;
+	margin: -28px 0 20vh 0;
+}
+.setting_gamer_wrapper .user_settings_save a {
+	text-decoration: none;
+
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: "akrobat-bold", sans-serif;
+	letter-spacing: 2px;
+	color: #0b132b;
+}
+.setting_gamer_wrapper .user_settings_save .cancel {
+	background-color: #e5e5e5;
+	padding: 15px 55px;
+	margin-right: 10px;
+}
+.setting_gamer_wrapper .user_settings_save .save {
+	background-color: #f79d00;
+	padding: 15px 30px;
+}
+.documentation_wrapper {
+	width: 100%;
+	background: linear-gradient(to bottom, #f6f6f3, #fff);
+}
+.documentation_wrapper .documentation {
+	margin: 0 110px;
+	padding-top: 10px;
+}
+.documentation_wrapper .documentation h1 {
+	font-size: 60px;
+	color: #0b132b;
+	text-transform: uppercase;
+}
+.documentation_wrapper .documentation .green_line {
+	margin: 0 0 70px 0;
+	padding: 0;
+	width: 100px;
+}
+
+.accordion {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+.accordion_item {
+  border-bottom: none;
+}
+.accordion_item:last-of-type {
+  border-bottom: none;
+}
+
+.accordion_trigger {
+  display: block;
+  color: #0b132b;
+  font-weight: normal;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-family: "akrobat-bold", sans-serif;
+  font-size: 30px;
+}
+.accordion_item .odd {
+	background-color: #e1e1e1;
+}
+.accordion_item .even {
+	background-color: #ececeb;
+}
+.accordion_toggle {
+  position: absolute;
+  display: none;
+}
+.accordion_target {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  background-color: #f9f9f9;
+  color: #0b132b;
+  font-family: "akrobat-regular", sans-serif;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.accordion_toggle:checked ~ .accordion_target {
+  position: static;
+  overflow: visible;
+  clip: auto;
+  margin: auto;
+  padding: 1.2rem;
+  width: auto;
+  height: auto;
+
+  -webkit-animation:fadeIn ease-in 0.5s;
+  -moz-animation:fadeIn ease-in 0.5s;
+  animation:fadeIn ease-in 0.5s;
+}
+
+@-moz-keyframes fadeIn {
+	from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fadeIn {
+	from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fadeIn {
+	from { opacity: 0; }
+to { opacity: 1 }
+}
+.accordion_target ul {
+	list-style-type: none;
+}
+.accordion_target ul li {
+	padding-left: 100px;
+}
+.accordion_target p {
+	padding: 0 70px;
+}
+.accordion_trigger span {
+	color: #64f38c;
+	font-size: 30px;
+	padding-right: 20px;
+	font-family: "akrobat-regular", sans-serif;
+	line-height: 17px;
+}
+.accordion_trigger p:before {
+	content: "";
+	display: block;
+	background: url(../img/plus-symbol.png);
+	width: 27px;
+	height: 27px;
+	margin: 6px 14px 0 0;
+	float: left;
+}
+.exchange_gamer_wrapper,
+.edit_game_dev_wrapper {
+	width: 100%;
+	background: -webkit-linear-gradient(#f6f6f3, #fff);
+	background: -o-linear-gradient(#f6f6f3, #fff);
+	background: linear-gradient(#f6f6f3, #fff);
+}
+.exchange_gamer_wrapper .exchange_gamer,
+.edit_game_dev_wrapper .edit_game_dev {
+	margin: 0 110px;
+	padding-top: 20px;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance {
+	width: 53%;
+	position: relative;
+}
+.exchange_gamer_wrapper .exchange_gamer .add_new_game {
+	width: 47%;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance p {
+	display: inline-block;
+	line-height: 29px;
+	vertical-align: top;
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 16px;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance h1,
+.exchange_gamer_wrapper .exchange_gamer .add_new_game h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 10px 0 10px 0;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance .green_line,
+.exchange_gamer_wrapper .exchange_gamer .add_new_game .green_line {
+	margin: 0 0 10px 0;
+	padding: 0;
+	width: 107px;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance .carousel_wrapper {
+	margin: 20px 30px;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance .carousel-element {
+	text-align: center;
+	width: 100px;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance .carousel_wrapper .carousel_nav .carousel_nav_next {
+	position: absolute;
+	right: 65px;
+	top: 120px;
+	background-image: url(../img/arrow_right.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance .carousel_wrapper .carousel_nav .carousel_nav_prev {
+	position: absolute;
+	left: 6px;
+	top: 120px;
+	background-image: url(../img/arrow_left.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance .carousel_wrapper .carousel_nav a {
+	text-decoration: none;
+	font-size: 60px;
+	color: #fff;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance .carousel_wrapper .carousel_wrapper p {
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 2px;
+	display: inline-block;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance .carousel_wrapper a.my_games_button {
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 14px;
+	background-color: #f79d00;
+	color: #0b132b;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 22px;
+	line-height: 14px;
+	vertical-align: middle;
+	display: block;
+	margin-top: 20px;
+}
+.exchange_gamer_wrapper .exchange_gamer .add_new_game {
+	position: relative;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance .carousel_wrapper p {
+	font-size: 18px;
+	font-family: "akrobat-regular", sans-serif;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance .carousel_wrapper .min_totum {
+	padding-top: 7px;
+}
+.exchange_gamer_wrapper .exchange_gamer .add_new_game h1 {
+	padding-top: 47px;
+}
+.exchange_gamer_wrapper .exchange_gamer .add_new_game h2 {
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: "akrobat-bold", sans-serif;
+	color: #f79d00;
+}
+.exchange_gamer_wrapper .exchange_gamer .add_new_game .stxt {
+	width: 220px;
+	height: 30px;
+	text-indent: 5px;
+	border: #0b132b 1px solid;
+}
+.exchange_gamer_wrapper .exchange_gamer .add_new_game .simg {
+	margin: 0 0 -5px -34px;
+}
+.exchange_gamer_wrapper .exchange_gamer .add_new_game .stxt::-webkit-input-placeholder {color:#0b132b;font-size: 14px;text-align: center;}
+.exchange_gamer_wrapper .exchange_gamer .add_new_game .stxt::-moz-placeholder          {color:#0b132b;font-size: 14px;text-align: center;}/* Firefox 19+ */
+.exchange_gamer_wrapper .exchange_gamer .add_new_game .stxt:-moz-placeholder           {color:#0b132b;font-size: 14px;text-align: center;}/* Firefox 18- */
+.exchange_gamer_wrapper .exchange_gamer .add_new_game .stxt:-ms-input-placeholder      {color:#0b132b;font-size: 14px;text-align: center;}
+
+.exchange_gamer_wrapper .exchange_gamer .add_new_game .search_wrapper {
+	width: 235px;
+	margin: 20px 0 20px 0;
+}
+.exchange_gamer_wrapper .exchange_gamer .add_new_game .exchange_photo {
+	position: absolute;
+	top: 47px;
+	right: 0;
+}
+.exchange_gamer_wrapper .exchange_gamer .add_new_game .most_popular {
+	margin-top: 30px;
+}
+.exchange_gamer_wrapper .exchange_gamer .add_new_game .most_popular img {
+	margin-right: 15px;
+}
+.exchange_gamer_wrapper .exchange_gamer .my_games_balance .carousel_wrapper a.my_games_button {
+	margin-top: 40px;
+}
+.totum_transfer_wrapper {
+	width: 100%;
+	margin-top: 40px;
+	background-image: url(../img/fon.png);
+	min-height: 260px;
+	padding-top: 20px;
+	color: #fff;
+	background-size: cover;
+}
+.totum_transfer_wrapper .totum_transfer {
+	margin: 0 110px;
+}
+.totum_transfer_wrapper .totum_transfer .send_totum {
+	width: 53%;
+}
+.totum_transfer_wrapper .totum_transfer .previous_transfer {
+	width: 47%;
+}
+.totum_transfer_wrapper .totum_transfer .send_totum h1,
+.totum_transfer_wrapper .totum_transfer .previous_transfer h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.totum_transfer_wrapper .totum_transfer .green_line {
+	background-color: #f79d00;
+	margin: 10px 0 20px 0;
+	padding: 0;
+	width: 100px;
+}
+.totum_transfer_wrapper .totum_transfer .send_totum .enter_usr,
+.totum_transfer_wrapper .totum_transfer .send_totum .enter_amo {
+	display: inline-block;
+}
+.totum_transfer_wrapper .totum_transfer .send_totum .enter_user,
+.totum_transfer_wrapper .totum_transfer .send_totum .enter_amount {
+	background-color: #3c4255;
+	border: none;
+	background: rgba(60, 66, 85, 0.3);
+	box-shadow: none;
+	text-indent: 5px;
+	margin-right: 15px;
+	color: #fff;
+	font-size: 16px;
+}
+.totum_transfer_wrapper .totum_transfer .send_totum input {
+	height: 40px;
+	width: 165px;
+}
+.totum_transfer_wrapper .totum_transfer .send_totum .send_totum {
+	width: 100px;
+	background-color: #f79d00;
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+	border: none;
+	cursor: pointer;
+}
+.totum_transfer_wrapper .totum_transfer .send_totum .enter_amo {
+	vertical-align: bottom;
+}
+.totum_transfer_wrapper .totum_transfer .send_totum p {
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+.totum_transfer_wrapper .totum_transfer .previous_transfer table {
+	cellspacing: 10px;
+	width: 260px;
+	font-size: 16px;
+	font-family: "akrobat-regular", sans-serif;
+	text-align: left;
+	height: 120px;
+}
+.totum_transfer_wrapper .attention {
+	margin-top: 50px;
+	padding-bottom: 10px;
+}
+.edit_game_dev h1 {
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 3px;
+}
+.edit_game_dev .green_line {
+	margin: 10px 0;
+	padding: 0;
+	width: 110px;
+}
+.edit_game_dev .edit_game_detail {
+	width: 525px;
+}
+.edit_game_dev .token_info {
+	width: 400px;
+	margin-left: 50px;
+}
+
+.edit_game_dev .token_info {
+	position: relative;
+}
+.edit_game_dev .edit_game_prop {
+	justify-content: flex-start
+}
+.edit_game_dev .edit_game_prop .change_logo,
+.edit_game_dev .edit_game_prop .change_info {
+	display: inline-block;
+	height: 200px;
+}
+.edit_game_dev .edit_game_prop .change_logo {
+	width: 165px;
+	margin: 0 30px 20px 0;
+}
+.edit_game_dev .edit_game_prop .change_info {
+	width: 315px;
+	vertical-align: top;
+}
+.edit_game_dev .edit_game_prop .change_info p {
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 24px;
+	padding-right: 18px;
+}
+.edit_game_dev .edit_game_prop .change_info strong {
+	font-family: "akrobat-bold", sans-serif;
+}
+.edit_game_dev .edit_game_prop .change_logo a {
+	text-transform: uppercase;
+	color: #0b132b;
+	font-size: 14px;
+	font-family: "akrobat-bold", sans-serif;
+	letter-spacing: 2px;
+}
+.edit_game_dev .edit_game_prop .change_logo a:before {
+	content: "";
+	display: block;
+	background: url(../img/refresh.png);
+	width: 18px;
+	height: 18px;
+	margin: 1px 10px 0 0;
+	float: left;
+}
+.edit_game_dev .edit_game_prop .change_logo a:hover {
+	text-decoration: none;
+}
+.edit_game_dev .edit_game_prop .change_info a {
+	display: block;
+}
+.edit_game_dev .edit_game_prop .change_info .game_name {
+	float: right;
+	margin: -22px 135px 0 0;
+}
+.edit_game_dev .edit_game_prop .change_info .game_descr {
+	float: right;
+	margin: -108px 0 0 0;
+}
+.edit_game_dev .edit_game_prop .token_info p {
+	font-size: 24px;
+	font-family: "akrobat-bold", sans-serif;
+	line-height: 32px;
+}
+.edit_game_dev .edit_game_prop .token_info .code_token {
+	font-family: "akrobat-regular", sans-serif;
+}
+.edit_game_dev .edit_game_prop .token_info .code_token span {
+	font-family: "MinionPro-Regular", sans-serif;
+}
+.edit_game_dev .edit_game_prop .token_info .code_wrapper {
+	width: 110px;
+	height: 40px;
+	font-family: "akrobat-regular", sans-serif;
+	font-size: 11px;
+	color: #0b132b;
+	border: 1px solid #c7c7c7;
+	border-radius: 2px;
+	position: absolute;
+	top: -38px;
+	right: -120px;;
+}
+.edit_game_dev .edit_game_prop .token_info .code_wrapper .code {
+	margin: 7px 13px;
+}
+.edit_game_dev .edit_game_prop .token_info .button_copy_token {
+	text-align: center;
+	background-color: #f79d00;
+	font-size: 14px;
+	font-family: "akrobat-bold", sans-serif;
+	color: #0b132b;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 100px;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	float: right;
+	margin: 20px 10px 0 0;
+}
+.edit_game_dev .save_cancel {
+	text-align: center;
+	margin-bottom: 150px;
+}
+.edit_game_dev .save_cancel a {
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 14px;
+	color: #0b132b;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.edit_game_dev .save_cancel .grey_button {
+	background-color: #e5e5e5;
+	margin-right: 10px;
+	padding: 15px 55px;
+}
+.edit_game_dev .save_cancel .yellow_button {
+	background-color: #f79d00;
+	padding: 15px 25px;
+}
+.edit_game_dev .delete_game {
+	text-align: center;
+	padding-bottom: 60px;
+}
+.edit_game_dev .del_game {
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	font-family: "akrobat-bold", sans-serif;
+	font-size: 14px;
+	background-color: #0b132b;
+	padding: 15px 30px;
 }

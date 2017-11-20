@@ -62,4 +62,14 @@
          url('../font/akrobat-semibold/akrobat-semibold.svg#akrobat-semibold') format('svg');
     font-style: normal;
     font-weight: normal;
+
+@font-face {
+    font-family: 'MinionPro-Regular';
+    src: url('../font/MinionPro-Regular/MinionPro-Regular.eot');
+    src: url('../font/MinionPro-Regular/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/MinionPro-Regular/MinionPro-Regular.woff') format('woff'),
+         url('../font/MinionPro-Regular/MinionPro-Regular.ttf') format('truetype'),
+         url('../font/MinionPro-Regular/MinionPro-Regular.svg#MinionPro-Regular') format('svg');
+    font-style: normal;
+    font-weight: normal;
 }

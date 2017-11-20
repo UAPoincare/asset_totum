@@ -88,7 +88,23 @@ $(document).ready(function() {
         return false;
     });
 } );
+$(document).ready(function() {
+    var carousel = $("#carousel2");
+    carousel.owlCarousel({
+        items: 3,
+        rewindNav: false,
+    });
+    $('#js-prev').click(function () {
+        carousel.trigger('owl.prev');
+        return false;
+        });
 
+    $('#js-next').click(function () {
+        carousel.trigger('owl.next');
+
+        return false;
+    });
+} );
 
 
 
