@@ -26,6 +26,8 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
 
 	<link rel="stylesheet" href="libs/datatables/jquery.dataTables.min.css" />
+	<link rel="stylesheet" href="libs/datatables/responsive.dataTables.min.css" />
+	<link rel="stylesheet" href="libs/slicknav/slicknav.min.css" />
 	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
@@ -40,8 +42,7 @@
 				</div>
 				<div class="top_mnu">
 					<nav>
-						<button class="menu"></button>
-						<ul>
+						<ul id="menu">
 							<li><a href="#" title="Balance" class="active">Balance</a></li>
 							<li><a href="#" title="Exchange" >Exchange</a></li>
 							<li><a href="#" title="News" >News</a></li>
@@ -49,8 +50,8 @@
 						</ul>
 					</nav>
 				</div>
-
 			</div>
+			<img src="img/logo_min.png" alt="logo" class="logo_mnu">
 		</header>
 	<section>
 		<div class="balance_wrapper">
@@ -224,11 +225,12 @@
 		<div class="my_history_wrapper">
 			<div class="my_history">
 				<h1>My history</h1>
+				<div class="green_line yellow_line_history"></div>
 				<div class="my_history_table">
-					<table id="example" class="display" width="100%" cellspacing="0">
+					<table id="example" class="display responsive nowrap" width="100%" cellspacing="0">
 						<thead>
 							<tr>
-								<th>_____________</th>
+								<th></th>
 								<th>Totums</th>
 								<th>in Game currency</th>
 								<th>Time</th>
@@ -240,7 +242,7 @@
 						</thead>
 						<tfoot>
 							<tr>
-								<th>_____________</th>
+								<th></th>
 								<th>Totums</th>
 								<th>in Game currency</th>
 								<th>Time</th>
@@ -530,6 +532,8 @@
 	<!-- <script src="libs/jquery/jquery-1.11.1.min.js"></script> -->
 	<script src="libs/jquery/jquery-1.12.4.js"></script>
 	<script src="libs/datatables/jquery.dataTables.min.js"></script>
+	<script src="libs/datatables/dataTables.responsive.min.js"></script>
+	<script src="libs/slicknav/jquery.slicknav.min.js"></script>
 	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
 
 
