@@ -84,6 +84,9 @@
 	.edit_game_dev .edit_game_prop .token_info .code_wrapper {
 		top: 0;
 	}
+	.dev_balance_wrapper .my_games .my_games_list ul li {
+		margin-right: 50px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -146,6 +149,9 @@
 	}
 	.dev_balance_wrapper .my_ballance_inner .change_balance {
 		margin-top: 40px;
+	}
+	.dev_balance_wrapper .my_games .my_games_list ul li {
+		margin-right: 17px;
 	}
 }
 
@@ -268,7 +274,104 @@
 	.documentation_wrapper .documentation h1 {
 		font-size: 50px;
 	}
-
+	.change_balance_tab_wrapper img {
+		width: 21%;
+	}
+	.change_balance_tab_wrapper .tab_content .tab_item a {
+		margin: 0 19px;
+	}
+	.my_ballance_wrapper {
+	margin: 0 50px;
+	}
+	.change_balance_tab_wrapper {
+		top: 88px;
+		left: 0;
+	}
+	.balance_wrapper .my_games {
+		margin: 178px 0 50px 0;
+		padding: 0 50px;
+	}
+	.my_history {
+		padding: 20px 10px 10px 10px;
+	}
+	table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
+		font-size: 12px;
+	}
+	.my_history .dataTables_wrapper .dataTable thead .sorting_asc, .my_history .dataTables_wrapper .dataTable thead .sorting, .my_history .dataTables_wrapper .dataTable thead .sorting_desc, .my_history .dataTables_wrapper .dataTable thead th {
+		font-size: 13px;
+	}
+	table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td img {
+		width: 18px;
+	}
+	.my_history .dataTables_wrapper .dataTables_paginate {
+		left: 30%;
+	}
+	.balance_wrapper .change_balance_tab_wrapper .tabs {
+		text-align: left;
+	}
+	.dataTables_wrapper .dataTables_paginate .paginate_button {
+		padding: 0.1em 0.4em;
+	}
+	.my_history_table .dataTables_wrapper .dataTables_paginate .paginate_button {
+		font-size: 11px;
+	}
+	.edit_game_dev .edit_game_prop .change_info p {
+		font-size: 20px;
+	}
+	.edit_game_dev .edit_game_prop .change_info .game_descr {
+		margin: -69px 0 0 0;
+	}
+	.edit_game_dev .edit_game_prop .token_info p {
+		font-size: 20px;
+	}
+	.exchange_gamer_wrapper .exchange_gamer, .edit_game_dev_wrapper .edit_game_dev {
+		margin: 0 50px;
+	}
+	.edit_game_dev .edit_game_prop .token_info .code_wrapper {
+		left: 0;
+		top: 85px;
+	}
+	.edit_game_dev .edit_game_prop .token_info .button_copy_token {
+		margin: 20px 60px 0 0;
+	}
+	.edit_game_dev .edit_game_prop .change_info p {
+		font-size: 18px;
+	}
+	.edit_game_dev .edit_game_prop .change_info .game_descr {
+		margin: -63px 20px 0 0;
+	}
+	.edit_game_dev .edit_game_prop .token_info .button_copy_token {
+		float: left;
+		margin-left: 227px;
+	}
+	.totum_transfer_wrapper .totum_transfer .send_totum .send_totum {
+		margin-top: 20px;
+	}
+	.totum_transfer_wrapper .totum_transfer {
+		margin: 0 50px;
+	}
+	.setting_gamer .my_profile .profile_description {
+		width: 150px;
+	}
+	.setting_gamer .my_profile .add_descr {
+		width: 150px;
+	}
+	.setting_gamer .my_profile .add, .setting_gamer .my_credit_card .add {
+		letter-spacing: 1px;
+	}
+	.setting_gamer {
+		margin: 0 50px;
+	}
+	.setting_gamer_wrapper .user_settings_save {
+		text-align: left;
+		margin-left: 50px;
+	}
+	.setting_gamer_wrapper .user_settings_save .cancel {
+		padding: 15px 40px;
+	}
+	.setting_gamer_wrapper .user_settings_save .save {
+		padding: 15px 15px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -415,8 +518,94 @@
 	.documentation_wrapper .documentation h1 {
 		font-size: 40px;
 	}
-
-
+	.change_balance_tab_wrapper .tab_content .tab_item a {
+		margin: 0 13px;
+	}
+	.my_ballance_wrapper {
+		margin: 0 15px;
+	}
+	.my_history .dataTables_wrapper .dataTable thead .sorting_asc, .my_history .dataTables_wrapper .dataTable thead .sorting, .my_history .dataTables_wrapper .dataTable thead .sorting_desc, .my_history .dataTables_wrapper .dataTable thead th {
+		font-size: 10px;
+		font-family: "akrobat-regular", sans-serif;
+	}
+	.my_history {
+		padding: 20px 2px 10px 2px;
+	}
+	table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
+		font-size: 10px;
+	}
+	table.dataTable thead th, table.dataTable thead td {
+		padding: 10px 5px;
+	}
+	table.dataTable tbody th, table.dataTable tbody td {
+		padding: 8px 3px;
+	}
+	.exchange_gamer_wrapper .exchange_gamer, .edit_game_dev_wrapper .edit_game_dev {
+		margin: 0 20px;
+	}
+	.edit_game_dev .edit_game_prop .change_info p {
+		font-size: 18px;
+	}
+	.edit_game_dev .edit_game_prop .change_info .game_name {
+		margin: -20px 180px 0 0;
+	}
+	.edit_game_dev .edit_game_prop .change_info img {
+		width: 15px;
+	}
+	.edit_game_dev .edit_game_prop .change_info .game_descr {
+		margin: -63px 0 0 0;
+	}
+	.edit_game_dev .edit_game_prop .token_info p {
+		font-size: 17px;
+	}
+	.edit_game_dev .save_cancel .grey_button {
+		padding: 15px 35px;
+	}
+	.edit_game_dev .save_cancel .yellow_button {
+		padding: 15px 7px;
+	}
+	.edit_game_dev .edit_game_prop .change_info .game_descr {
+		margin: -63px 30px 0 0;
+	}
+	.edit_game_dev .edit_game_prop .token_info .button_copy_token {
+		margin-left: 151px;
+	}
+	.totum_transfer_wrapper .totum_transfer {
+		margin: 0 20px;
+	}
+	.exchange_gamer_wrapper .exchange_gamer .add_new_game .most_popular img {
+		margin-right: 7px;
+	}
+	.setting_gamer .my_profile .profile_description {
+		left: 0;
+		top: 260px;
+	}
+	.setting_gamer .my_credit_card {
+		margin-top: 120px;
+	}
+	.setting_gamer .my_profile .add_descr {
+		left: 0;
+		top: 360px;
+	}
+	.setting_gamer {
+		margin: 0 20px;
+	}
+	.setting_gamer .my_credit_card .edit_card {
+		margin-right: 35px;
+	}
+	.setting_gamer_wrapper .user_settings_save a {
+		font-size: 12px;
+		letter-spacing: 1px;
+	}
+	.setting_gamer_wrapper .user_settings_save .cancel {
+		padding: 15px 30px;
+	}
+	.setting_gamer_wrapper .user_settings_save {
+		padding-right: 0;
+	}
+	.setting_gamer_wrapper .user_settings_save {
+		margin-left: 20px;
+	}
 }
 
 /* Custom, iPhone Retina */
